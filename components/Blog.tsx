@@ -32,6 +32,28 @@ const Blog: React.FC = () => {
       readingTime: '5 min read',
       image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 2,
+      slug: 'monthly-home-visits-nutrition-care-benefits',
+      category: 'Nutrition Tips',
+      date: 'Feb 6, 2026',
+      title: 'Why Monthly Home Visits Make Nutrition Care More Effective',
+      excerpt: 'Discover why monthly home visits from a qualified dietician in Gurugram deliver better results than clinic-based nutrition care. Expert insights on effective, convenient nutrition monitoring.',
+      readingTime: '9 min read',
+      image: '/monthly-home-visits-nutrition-care-benefits.jpg',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 3,
+      slug: 'how-to-choose-right-dietitian-health-goals',
+      category: 'Nutrition Tips',
+      date: 'Feb 6, 2026',
+      title: 'How to Choose the Right Nutritionist Dietician Near Me for Your Health Goals',
+      excerpt: 'Discover how to find a dietician near me who aligns with your health goals. Learn key factors to consider when selecting a qualified nutritionist dietician for personalized nutrition care.',
+      readingTime: '7 min read',
+      image: '/how-to-choose-right-dietitian-health-goals.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
@@ -169,12 +191,12 @@ const Blog: React.FC = () => {
           <p className="text-[#ffffff] mb-10 text-lg max-w-xl mx-auto">
             Get personalized nutrition care that actually works with the best nutritionists near me. Book your session today.
           </p>
-          <button
-            onClick={() => window.location.hash = 'contact'}
-            className="bg-[#ffffff] hover:bg-[#ffffff]/80 text-[#217328] px-12 py-4 rounded-2xl font-black text-sm tracking-widest uppercase transition-all shadow-xl shadow-[#217328]/40 active:scale-95"
-          >
-            Get Started
-          </button>
+          <Link
+  href="/contact"
+  className="bg-[#ffffff] hover:bg-[#ffffff]/80 text-[#217328] px-12 py-4 rounded-2xl font-black text-sm tracking-widest uppercase transition-all shadow-xl shadow-[#217328]/40 active:scale-95 inline-block"
+>
+  Get Started
+</Link>
         </div>
       </section>
     </div>

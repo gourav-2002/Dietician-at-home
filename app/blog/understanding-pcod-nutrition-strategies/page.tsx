@@ -13,7 +13,7 @@ export const metadata = {
         description: "Discover science-backed nutrition strategies for PCOD management. Learn how to balance hormones and manage symptoms effectively.",
         url: 'https://dieticianathome.com/blog/understanding-pcod-nutrition-strategies',
         siteName: 'Dietitian at Home',
-        images: [
+        images: [   
             {
                 url: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80',
                 width: 1200,

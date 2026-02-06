@@ -3,6 +3,11 @@ body {
   overflow-x: hidden;
 }
 
+.custom-blog-content p {
+  margin-bottom: 0.75rem !important; /* default 1.25rem hota hai */
+  margin-top: 0.75rem !important; /* default 1.25rem hota hai */
+}
+
 
 @media screen and (max-width: 756px) {
   .home-herosection {
