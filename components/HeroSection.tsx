@@ -1186,38 +1186,38 @@ const Home: React.FC = () => {
           </div>
 
           {/* Differentiators Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
+             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
             {[
               {
                 icon: <MapPin size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
-                title: "No Clinic Visits Required",
-                desc: "We bring professional nutrition guidance directly to your doorstep. Monthly at-location visits mean you never have to travel, wait in line, or disrupt your routine. Your home becomes your wellness hub.",
-                badge: "Monthly At-Location Visits Included"
+                title: "Dieticians Near Me Visit Your Home",
+                desc: "Professional dieticians in Gurgaon bring nutrition guidance to your doorstep. Monthly at-location assessments by expert dieticians near me mean zero travel, zero waiting, zero routine disruption.",
+                badge: "Every client gets monthly home visits"
               },
               {
                 icon: <Stethoscope size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
-                title: "Weekly Expert Guidance",
-                desc: "Unlike sporadic monthly check-ins or abandoned app plans, you speak to a qualified Dietician every single week. Continuous feedback, course correction, and accountability—not just a plan and goodbye.",
-                badge: "Ongoing professional support"
+                title: "Weekly Involvement from Dieticians in Gurgaon",
+                desc: "Unlike sporadic check-ins, you speak to qualified dieticians near me every single week. Professional dieticians in Gurgaon provide continuous feedback, course correction, and accountability—not just a plan and goodbye.",
+                badge: "2,000+ consultations every month"
               },
               {
                 icon: <BarChart3 size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
-                title: "Data-Driven, Not Guesswork",
-                desc: "Wellness Tracking Devices, real-time meal tracking, and weekly parameter updates eliminate assumptions. Every decision is based on actual data—your progress is quantifiable, visible, and reviewable.",
+                title: "Data-Driven Dieticians Near Me",
+                desc: "Expert dieticians in Gurgaon use professional monitoring devices, real-time tracking, and weekly updates. Professional dieticians near me eliminate guesswork—your progress with dieticians in Gurgaon is quantifiable and visible.",
                 badge: "Real-time tracking via app & devices"
               },
               {
                 icon: <Users size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
-                title: "Human-First, Tech-Enabled",
-                desc: "Technology works quietly in the background while real humans remain in control of your guidance. Your Dietician makes the decisions. The app makes execution easier. You get the advantages of both.",
-                badge: "Dedicated human-led sessions"
+                title: "Human Dieticians in Gurgaon, Tech-Enabled",
+                desc: "Technology works in the background while real dieticians near me control your guidance. Professional dieticians in Gurgaon make decisions. The app makes execution easier. Best of both worlds.",
+                badge: "100% human-led consultations"
               }
             ].map((d, i) => (
               <div key={i} className="group bg-white border-2 border-[#E5E7EB] rounded-[32px] p-8 flex flex-col min-h-[420px] shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:border-[#217328] hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(33,115,40,0.15)] transition-all duration-400">
                 <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-[#F0FDF4] to-[#E8F5E9] border-[3px] border-[#217328] flex items-center justify-center mb-8 shadow-[0_8px_16px_rgba(33,115,40,0.1)] group-hover:bg-[#217328] group-hover:rotate-[5deg] transition-all duration-300">
                   {d.icon}
                 </div>
-                <p className="text-2xl font-extrabold text-[#1F2937] leading-[1.3] mb-4 tracking-tight">{d.title}</p>
+                <h3 className="text-2xl font-extrabold text-[#1F2937] leading-[1.3] mb-4 tracking-tight">{d.title}</h3>
                 <p className="text-base font-medium text-[#6B7280] leading-[1.7] mb-6 flex-grow">{d.desc}</p>
                 <div className="bg-[#F0FDF4] border-l-4 border-[#217328] px-4 py-3 rounded-xl flex items-center gap-2 mt-auto">
                   <CheckCircle2 size={16} fill="#217328" color="white" />
@@ -1227,8 +1227,89 @@ const Home: React.FC = () => {
             ))}
           </div>
 
-          {/* Feature Differentiation Section */}
+          {/* Comparison Table */}
           <div className="max-w-[1200px] mx-auto bg-white border-2 border-[#E5E7EB] rounded-[40px] p-8 md:p-14 shadow-[0_10px_40px_rgba(0,0,0,0.08)]">
+            <h3 className="text-[32px] font-bold text-[#1F2937] text-center mb-10">How We Compare</h3>
+            <p className="text-sm text-[#6B7280] text-center -mt-8 mb-12 font-medium">Honest comparison with other nutrition solutions</p>
+
+            <div className="grid grid-cols-1 md:grid-cols-[30%_30%_40%] gap-8 md:gap-0 relative">
+              {/* Mobile/Tablet Labels only visible on small screens */}
+
+              {/* Column 1 */}
+              <div className="md:pr-8 md:border-r border-gray-100">
+                <h4 className="text-lg font-bold text-gray-900 mb-6 text-center md:text-left">Traditional Clinics</h4>
+                <div className="space-y-6">
+                  {[
+                    { l: "Convenience", v: "✗ Requires travel & waiting" },
+                    { l: "Professional Involvement", v: "✗ Sporadic monthly visits only" },
+                    { l: "Monitoring", v: "✗ Only during clinic visits" },
+                    { l: "Personalization", v: "✗ Limited customization" },
+                    { l: "Accountability", v: "✗ Long gaps between visits" },
+                    { l: "Family Support", v: "✗ Individual-only focus" },
+                    { l: "Cost", v: "₹5,000+/month" }
+                  ].map((idx, k) => (
+                    <div key={k} className="pb-5 border-b border-gray-50 last:border-0">
+                      <p className="text-[14px] uppercase tracking-widest text-[#6B7280] font-bold mb-2 md:hidden">{idx.l}</p>
+                      <div className="flex items-start gap-3">
+                        {k === 6 ? null : <div className="mt-0.5 min-w-[20px]"><X size={20} className="text-[#EF4444]" /></div>}
+                        <p className="text-[15px] text-[#9CA3AF] font-medium leading-tight">{idx.v}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Column 2 */}
+              <div className="md:px-8 md:border-r border-gray-100 hidden md:block">
+                <h4 className="text-lg font-bold text-gray-900 mb-6">Generic Apps</h4>
+                <div className="space-y-6">
+                  {[
+                    "✗ No human interaction",
+                    "✗ Zero professional guidance",
+                    "✗ Self-reported, unreliable",
+                    "✗ One-size-fits-all templates",
+                    "✗ Easy to abandon",
+                    "✗ No family features",
+                    "₹999/month (no results)"
+                  ].map((v, k) => (
+                    <div key={k} className="pb-5 border-b border-gray-50 last:border-0 flex items-start gap-3">
+                      {k === 6 ? null : <div className="mt-0.5 min-w-[20px]"><X size={20} className="text-[#EF4444]" /></div>}
+                      <p className="text-[15px] text-[#9CA3AF] font-medium leading-tight">{v}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Column 3 - Us */}
+              <div className="md:-my-8 md:-mr-8 md:ml-0 md:pl-10 md:py-8 bg-gradient-to-b from-[#F0FDF4] to-white border-2 border-[#217328] rounded-[24px] p-8 shadow-lg relative overflow-hidden">
+                <div className="absolute top-0 right-0 bg-[#217328] text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-widest">Recommended</div>
+                <h4 className="text-xl font-extrabold text-[#217328] mb-6 flex items-center gap-2">Dietitian at Home</h4>
+                <div className="space-y-6">
+                  {[
+                    { l: "Convenience", v: "✓ Doorstep service + weekly calls" },
+                    { l: "Professional Involvement", v: "✓ Weekly dietitian consultations" },
+                    { l: "Monitoring", v: "✓ Professional device + real-time tracking" },
+                    { l: "Personalization", v: "✓ Fully personalized, weekly refined" },
+                    { l: "Accountability", v: "✓ Weekly check-ins ensure compliance" },
+                    { l: "Family Support", v: "✓ Family group management included" },
+                    { l: "Cost", v: "₹2,499/month (premium care)" }
+                  ].map((idx, k) => (
+                    <div key={k} className="pb-5 border-b border-[#217328]/10 last:border-0">
+                      <p className="text-[10px] uppercase tracking-widest text-[#217328]/60 font-bold mb-1 md:hidden">{idx.l}</p>
+                      <div className="flex items-start gap-3">
+                        {k === 6 ? null : <div className="mt-0.5 min-w-[20px]"><CheckCircle2 size={20} className="text-[#217328]" fill="#217328" color="white" /></div>}
+                        <p className="text-[15px] text-[#1F2937] font-bold leading-tight">{idx.v}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          {/* Feature Differentiation Section */}
+          <div className="mt-20 max-w-[1200px] mx-auto bg-white border-2 border-[#E5E7EB] rounded-[40px] p-8 md:p-14 shadow-[0_10px_40px_rgba(0,0,0,0.08)]">
             <h3 className="text-[32px] font-bold text-[#1F2937] text-center mb-10">What Makes Our Nutrition Support Different</h3>
             <p className="text-sm text-[#6B7280] text-center -mt-8 mb-12 font-medium">Designed around your daily routine and home environment</p>
 
@@ -1252,14 +1333,14 @@ const Home: React.FC = () => {
           {/* Bottom Trust Stats */}
           <div className="mt-20 max-w-[1400px] mx-auto bg-gradient-to-r from-[#217328] to-[#1B5E20] rounded-[40px] px-8 py-16 md:p-16 text-center shadow-2xl relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mixed-blend-overlay"></div>
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 relative z-10">Trusted by Our Clients</h3>
-            <p className="text-lg text-white/80 mb-12 relative z-10">Real people. Real progress. Real commitment.</p>
+            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 relative z-10">Trusted by 500+ Active Clients</h3>
+            <p className="text-lg text-white/80 mb-12 relative z-10">Real people. Real results. Real transformation.</p>
 
             <div className="grid md:grid-cols-3 gap-10 md:gap-12 max-w-4xl mx-auto relative z-10 mb-12">
               {[
-                { n: "Clients", l: "Active Community" },
-                { n: "High", l: "Retention Rate" },
-                { n: "Weekly", l: "sessions" }
+                { n: "500+", l: "Active Clients" },
+                { n: "95%", l: "Retention Rate" },
+                { n: "2,000+", l: "Monthly Consultations" }
               ].map((s, i) => (
                 <div key={i}>
                   <p className="text-[48px] font-black text-white leading-tight">{s.n}</p>
@@ -1269,7 +1350,7 @@ const Home: React.FC = () => {
             </div>
 
             <button
-              onClick={() => router.push('/contact')}
+              onClick={() => window.location.hash = 'contact'}
               className="h-14 px-10 bg-white text-[#217328] font-bold text-sm uppercase tracking-wide rounded-2xl hover:scale-105 hover:shadow-[0_8px_20px_rgba(0,0,0,0.2)] transition-all duration-300 inline-flex items-center justify-center gap-2 relative z-10"
             >
               Experience the Difference <ArrowRight size={16} />
@@ -1450,7 +1531,7 @@ const Home: React.FC = () => {
 
 
       {/* SECTION 11.5: NUTRITION QUOTE (NEW) */}
-      <section className="relative py-20 md:py-32 bg-gradient-to-b from-[#FAFAFA] to-white overflow-hidden">
+         <section className="relative py-20 md:py-32 bg-gradient-to-b from-[#FAFAFA] to-white overflow-hidden">
         {/* Decorative Background Element */}
         <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[#217328]/5 rounded-full blur-[100px] pointer-events-none"></div>
 
@@ -1461,7 +1542,7 @@ const Home: React.FC = () => {
             <div className="w-full lg:w-1/2 h-[400px] lg:h-[600px] relative group overflow-hidden rounded-[40px] lg:rounded-b-none lg:rounded-r-[40px] shadow-[0_30px_80px_rgba(0,0,0,0.15)] order-1 lg:order-1">
               <div className="absolute inset-0 bg-gradient-to-br from-[#217328]/10 to-transparent z-10 pointer-events-none transition-opacity duration-500 group-hover:opacity-50"></div>
               <Image
-                src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=1000"
+                src="/results-come-from-expert-dieticians.jpg"
                 alt="Fresh healthy food including vegetables, fruits, and balanced meals"
                 fill
                 className="object-cover transition-transform duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-110"
@@ -1473,23 +1554,23 @@ const Home: React.FC = () => {
 
               <Quote size={80} className="text-[#217328] opacity-20 mb-8" />
 
-              <h3 className="text-3xl md:text-[42px] font-extrabold text-[#1F2937] leading-[1.2] tracking-tight mb-6">
-                Your Daily Food Choices Matter
-
-              </h3>
+              <h2 className="text-3xl md:text-[42px] font-extrabold text-[#1F2937] leading-[1.2] tracking-tight mb-6">
+                <span className="text-[#217328] text-4xl md:text-[48px]">90%</span> of Your Results Come From Expert Dieticians
+              </h2>
 
               <p className="text-lg md:text-xl text-[#6B7280] font-medium leading-[1.7] max-w-lg mb-10">
-                Nutrition plays an important role in overall wellness and lifestyle habits. Thoughtful food choices, combined with consistency and guidance, can help support long-term health routines. Our dieticians in Gurgaon focus on making nutrition practical, structured, and easy to follow through personalized programs.
+                Nutrition guidance from professional dieticians in Gurgaon is the foundation of health transformation. No exercise can outwork poor diet. That's why qualified dieticians near me bring professional nutrition directly to you—making it convenient, structured, and results-driven with expert dieticians in Gurgaon.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-10">
                 {[
-                  { label: "Food Choices" },
-                  { label: "Daily Movement" },
-                  { label: "Individual Factors" }
+                  { num: "70%", label: "Diet Impact" },
+                  { num: "20%", label: "Exercise" },
+                  { num: "10%", label: "Genetics" }
                 ].map((stat, i) => (
                   <div key={i} className="bg-[#F0FDF4] border-2 border-[#217328] rounded-xl px-6 py-4 text-center hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
-                    <p className="text-lg font-bold text-[#217328]">{stat.label}</p>
+                    <p className="text-2xl font-bold text-[#217328]">{stat.num}</p>
+                    <p className="text-[10px] uppercase tracking-widest text-[#6B7280] font-bold mt-1">{stat.label}</p>
                   </div>
                 ))}
               </div>
@@ -1652,7 +1733,7 @@ const Home: React.FC = () => {
 
           {/* Supporting Text */}
           <p className="text-xl md:text-[22px] text-white/80 font-normal leading-relaxed max-w-[700px] mb-14">
-            Join clients who chose measurable progress over shortcuts. Professional guidance. Human touch. Technology-enabled precision. All delivered to your doorstep.
+            Join 500+ clients who chose real progress over shortcuts with expert dieticians in Gurgaon. Professional guidance from qualified dieticians near me. Human touch. Technology-enabled precision. All delivered to your doorstep by trusted dieticians in Gurgaon.
           </p>
 
           {/* CTA Buttons */}
