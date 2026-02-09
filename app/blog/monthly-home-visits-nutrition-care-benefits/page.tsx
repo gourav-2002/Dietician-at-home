@@ -44,7 +44,7 @@ export default function MonthlyHomeVisitsBlogPost() {
         "image": "https://dieticianathome.com/monthly-home-visits-nutrition-care-benefits.jpg",
         "author": {
             "@type": "Person",
-            "name": "Dietitian at Home"
+            "name": "Priya Sharma"
         },
         "publisher": {
             "@type": "Organization",
@@ -464,15 +464,15 @@ export default function MonthlyHomeVisitsBlogPost() {
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="w-16 h-16 rounded-2xl overflow-hidden bg-white shadow-sm border border-slate-100">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=120&h=120&fit=crop"
-                                        alt="Nutrition Expert"
+                                        src="/priya-sharma.jpg"
+                                        alt="Priya Sharma"
                                         width={64}
                                         height={64}
                                         className="object-cover"
                                     />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-black text-slate-900 leading-tight">Dietitian at Home</h4>
+                                    <h4 className="text-lg font-black text-slate-900 leading-tight">Priya Sharma</h4>
                                     <p className="text-[#217328] font-bold text-sm">Expert Care Team</p>
                                 </div>
                             </div>

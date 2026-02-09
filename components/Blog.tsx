@@ -19,7 +19,7 @@ interface BlogPost {
 const Blog: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Weight Management', 'PCOD Care', 'Diabetes Management', 'Success Stories', 'Nutrition Tips'];
+  const categories = ['All', 'Weight Management', 'PCOD Care', 'Diabetes Management', 'Elderly Care', 'Nutrition Tips'];
 
   const posts: BlogPost[] = [
     {
@@ -53,6 +53,17 @@ const Blog: React.FC = () => {
       excerpt: 'Discover how to find a dietician near me who aligns with your health goals. Learn key factors to consider when selecting a qualified nutritionist dietician for personalized nutrition care.',
       readingTime: '7 min read',
       image: '/how-to-choose-right-dietitian-health-goals.jpg',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 4,
+      slug: 'elder-care-nutrition-specialized-diet-plans-seniors',
+      category: 'Elderly Care',
+      date: 'Feb 9, 2026',
+      title: 'Elder Care Nutrition: Why Seniors Need Specialized Diet Plans at Home',
+      excerpt: 'Discover why seniors need specialized nutrition care at home. Expert guidance from the best dietician in Delhi NCR on age-appropriate meal planning, health monitoring, and doorstep support for elderly wellness.',
+      readingTime: '10 min read',
+      image: '/elder-care-nutrition-specialized-diet-plans-seniors.jpg',
       color: 'bg-green-100 text-[#217328]'
     }
   ];

@@ -44,7 +44,7 @@ export default function PcodBlogPost() {
         "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80",
         "author": {
             "@type": "Person",
-            "name": "Nutri Sahiba"
+            "name": "Anita Menon"
         },
         "publisher": {
             "@type": "Organization",
@@ -265,20 +265,20 @@ export default function PcodBlogPost() {
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="w-16 h-16 rounded-2xl overflow-hidden bg-white shadow-sm border border-slate-100">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&fit=crop"
-                                        alt="Nutri Sahiba"
+                                        src="/anita-menon.jpg"
+                                        alt="Anita Menon"
                                         width={64}
                                         height={64}
                                         className="object-cover"
                                     />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-black text-slate-900 leading-tight">Nutri Sahiba</h4>
+                                    <h4 className="text-lg font-black text-slate-900 leading-tight">Anita Menon</h4>
                                     <p className="text-[#217328] font-bold text-sm">Lead Clinical Dietitian</p>
                                 </div>
                             </div>
                             <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                                Specializing in women's metabolic health and therapeutic nutrition, Sahiba has helped hundreds of women manage PCOD and PCOS through natural, home-based diet interventions.
+                                Specializing in women's metabolic health and therapeutic nutrition, Anita has helped hundreds of women manage PCOD and PCOS through natural, home-based diet interventions.
                             </p>
                             <Link href="/care-team" className="text-[#217328] font-black text-xs uppercase tracking-widest hover:underline flex items-center">
                                 View All Experts

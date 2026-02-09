@@ -44,7 +44,7 @@ export default function ChooseRightDietitianBlog() {
         "image": "https://dieticianathome.com/how-to-choose-right-dietitian-health-goals.jpg",
         "author": {
             "@type": "Person",
-            "name": "Nutri Sahiba"
+            "name": "Priya Sharma"
         },
         "publisher": {
             "@type": "Organization",
@@ -432,15 +432,15 @@ export default function ChooseRightDietitianBlog() {
                             <div className="flex items-center gap-4 mb-6">
                                 <div className="w-16 h-16 rounded-2xl overflow-hidden bg-white shadow-sm border border-slate-100">
                                     <Image
-                                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&fit=crop"
-                                        alt="Nutri Sahiba"
+                                        src="/priya-sharma.jpg"
+                                        alt="Priya Sharma"
                                         width={64}
                                         height={64}
                                         className="object-cover"
                                     />
                                 </div>
                                 <div>
-                                    <h4 className="text-lg font-black text-slate-900 leading-tight">Nutri Sahiba</h4>
+                                    <h4 className="text-lg font-black text-slate-900 leading-tight">Priya Sharma</h4>
                                     <p className="text-[#217328] font-bold text-sm">Lead Clinical Dietitian</p>
                                 </div>
                             </div>
