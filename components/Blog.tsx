@@ -65,6 +65,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/elder-care-nutrition-specialized-diet-plans-seniors.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 5,
+      slug: '7-signs-professional-nutrition-care',
+      category: 'Nutrition Tips',
+      date: 'Feb 10, 2026',
+      title: '7 Signs You Need Professional Nutrition Care (Not Just a Meal Plan App)',
+      excerpt: 'Discover when meal plan apps aren\'t enough. Learn the 7 signs you need a professional online dietician in Delhi for personalized nutrition care and real results.',
+      readingTime: '9 min read',
+      image: '/7-signs-professional-nutrition-care.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
