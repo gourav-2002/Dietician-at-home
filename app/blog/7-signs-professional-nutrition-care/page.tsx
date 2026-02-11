@@ -393,7 +393,7 @@ export default function ProfessionalNutritionCareBlogPost() {
                     </div>
 
                     {/* Social Share */}
-                    <div className="mt-16 pt-8 border-t border-gray-100 hidden md:flex items-center gap-6">
+                    {/* <div className="mt-16 pt-8 border-t border-gray-100 hidden md:flex items-center gap-6">
                         <span className="text-slate-900 font-bold uppercase tracking-widest text-sm">Share this Article:</span>
                         <div className="flex gap-4">
                             {['Facebook', 'Twitter', 'WhatsApp', 'LinkedIn'].map(platform => (
@@ -402,7 +402,7 @@ export default function ProfessionalNutritionCareBlogPost() {
                                 </button>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                 </article>
 
                 {/* Sidebar */}

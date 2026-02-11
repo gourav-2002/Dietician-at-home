@@ -443,16 +443,7 @@ export default function MonthlyHomeVisitsBlogPost() {
                     </div>
 
                     {/* Social Share (Desktop) */}
-                    <div className="mt-16 pt-8 border-t border-gray-100 hidden md:flex items-center gap-6">
-                        <span className="text-slate-900 font-bold uppercase tracking-widest text-sm">Share this Article:</span>
-                        <div className="flex gap-4">
-                            {['Facebook', 'Twitter', 'WhatsApp', 'LinkedIn'].map(platform => (
-                                <button key={platform} className="text-gray-400 hover:text-[#217328] transition-colors font-bold text-sm">
-                                    {platform}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
+                    
                 </article>
 
                 {/* Sidebar */}

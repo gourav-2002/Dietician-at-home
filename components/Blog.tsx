@@ -76,6 +76,17 @@ const Blog: React.FC = () => {
       readingTime: '9 min read',
       image: '/7-signs-professional-nutrition-care.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 6,
+      slug: 'first-month-home-dietitian-service',
+      category: 'Nutrition Tips',
+      date: 'Feb 11, 2026',
+      title: 'What Happens in Your First Month with a Home Dietitian Service',
+      excerpt: 'Discover what happens in your first month with a dietician dr near me. From initial assessment to weekly consultations, learn how professional home nutrition care transforms health.',
+      readingTime: '10 min read',
+      image: '/first-month-home-dietitian-service.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
