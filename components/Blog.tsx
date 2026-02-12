@@ -87,6 +87,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/first-month-home-dietitian-service.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 7,
+      slug: 'why-traditional-diet-charts-fail',
+      category: 'Nutrition Tips',
+      date: 'Feb 12, 2026',
+      title: 'Why Traditional Diet Charts Fail: The Case for Weekly Nutrition Monitoring',
+      excerpt: 'Discover why traditional diet charts don\'t work and how the top dietician in Noida provides weekly nutrition monitoring for real results. Learn from famous dietician in Delhi.',
+      readingTime: '8 min read',
+      image: '/why-traditional-diet-charts-fail.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 

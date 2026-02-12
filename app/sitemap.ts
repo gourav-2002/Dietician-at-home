@@ -64,6 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/blog/elder-care-nutrition-specialized-diet-plans-seniors`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/7-signs-professional-nutrition-care`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/first-month-home-dietitian-service`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${baseUrl}/blog/why-traditional-diet-charts-fail`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     ];
 
     // Legal / policy pages
