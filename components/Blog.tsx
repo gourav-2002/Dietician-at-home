@@ -98,6 +98,17 @@ const Blog: React.FC = () => {
       readingTime: '8 min read',
       image: '/why-traditional-diet-charts-fail.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 8,
+      slug: '5-reasons-diet-failed-at-home-monitoring',
+      category: 'Weight Management',
+      date: 'Feb 13, 2026',
+      title: '5 Reasons Your Diet Failed—And How At-Home Monitoring Fixes It',
+      excerpt: 'Discover why most diets fail and how professional at-home nutrition monitoring with weekly dietitian support ensures lasting results. Stop the cycle today.',
+      readingTime: '8 min read',
+      image: '/5-reasons-diet-failed-at-home-monitoring.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
