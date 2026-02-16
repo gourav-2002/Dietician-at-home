@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'Refund & cancellation policy for affordable dietician near me in Gurgaon. Clear terms on refund eligibility, cancellation process & money-back timelines.',
         url: 'https://dieticianathome.com/refund-policy',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/logo.png',
-            width: 1200,
-            height: 630,
-            alt: 'Refund Policy - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },

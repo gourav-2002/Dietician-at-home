@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Best Dietician in Gurgaon for Weight Loss | Near Me',
         description: 'Find the best dietician near me for weight loss in Gurgaon. Personalized meal plans, weekly consultations & at-home visits for sustainable weight management.',
-        url: 'https://dieticianathome.com/weight-management',
+        url: 'https://dieticianathome.com/programs/weight-management',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/weight-management-program.jpg',
+            url: 'https://dieticianathome.com/transform-naturally.jpg',
             width: 1200,
             height: 630,
             alt: 'Weight Management Program - Dietician at Home',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Best Dietician in Gurgaon for Weight Loss | Near Me',
         description: 'Find the best dietician near me for weight loss in Gurgaon. Personalized meal plans, weekly consultations & at-home visits for sustainable weight management.',
-        images: ['https://dieticianathome.com/weight-management-program.jpg'],
+        images: ['https://dieticianathome.com/transform-naturally.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/weight-management',
+        canonical: 'https://dieticianathome.com/programs/weight-management',
     },
 };
 

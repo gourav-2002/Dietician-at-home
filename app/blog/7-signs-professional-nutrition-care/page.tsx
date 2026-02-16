@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80',
+                url: 'http://dieticianathome.com/7-signs-professional-nutrition-care.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Professional dietitian consulting with client at home in Delhi NCR',
@@ -28,8 +28,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "7 Signs You Need Professional Nutrition Care (Not Just a Meal Plan App)",
         description: "When generic apps fail: Signs you need a professional online dietician in Delhi for real results.",
-        images: ['https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80'],
-    },
+        images: ['http://dieticianathome.com/7-signs-professional-nutrition-care.jpg'],},
 };
 
 export default function ProfessionalNutritionCareBlogPost() {
@@ -43,7 +42,7 @@ export default function ProfessionalNutritionCareBlogPost() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "7 Signs You Need Professional Nutrition Care (Not Just a Meal Plan App)",
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80",
+        "image": "http://dieticianathome.com/7-signs-professional-nutrition-care.jpg",
         "author": {
             "@type": "Person",
             "name": "Anita Menon"

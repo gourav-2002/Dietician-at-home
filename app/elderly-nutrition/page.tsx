@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Best Nutritionist in Gurgaon for Elderly | Near Me',
         description: 'Best nutritionist & dieticians near me for elderly care in Gurgaon. Senior nutrition plans, chronic condition management & at-home visits for aging adults.',
-        url: 'https://dieticianathome.com/elderly-nutrition',
+        url: 'https://dieticianathome.com/programs/elderly-nutrition',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/elderly-nutrition-care.jpg',
+            url: 'https://dieticianathome.com/elderly-nutritions.jpg',
             width: 1200,
             height: 630,
             alt: 'Elderly Nutrition Program - Dietician at Home',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Best Nutritionist in Gurgaon for Elderly | Near Me',
         description: 'Best nutritionist & dieticians near me for elderly care in Gurgaon. Senior nutrition plans, chronic condition management & at-home visits for aging adults.',
-        images: ['https://dieticianathome.com/elderly-nutrition-care.jpg'],
+        images: ['https://dieticianathome.com/elderly-nutritions.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/elderly-nutrition',
+        canonical: 'https://dieticianathome.com/programs/elderly-nutrition',
     },
 };
 

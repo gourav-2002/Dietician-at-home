@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Clinical Dietician Near Me for Pregnancy | Gurgaon',
         description: 'Expert clinical dietician near me & nutritionists in Gurgaon for pregnancy. Trimester-specific meal plans, gestational diabetes care & healthy weight management.',
-        url: 'https://dieticianathome.com/pregnancy-nutrition',
+        url: 'https://dieticianathome.com/programs/pregnancy-nutrition',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/pregnancy-nutrition-care.jpg',
+            url: 'https://dieticianathome.com/pregency-nutrition-hero.jpg',
             width: 1200,
             height: 630,
             alt: 'Pregnancy Nutrition Program - Dietician at Home',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Clinical Dietician Near Me for Pregnancy | Gurgaon',
         description: 'Expert clinical dietician near me & nutritionists in Gurgaon for pregnancy. Trimester-specific meal plans, gestational diabetes care & healthy weight management.',
-        images: ['https://dieticianathome.com/pregnancy-nutrition-care.jpg'],
+        images: ['https://dieticianathome.com/pregency-nutrition-hero.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/pregnancy-nutrition',

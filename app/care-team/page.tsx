@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         url: 'https://dieticianathome.com/care-team',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/care-team-professionals.jpg',
+            url: 'https://dieticianathome.com/home-visit.jpg',
             width: 1200,
             height: 630,
             alt: 'Expert Dietician Care Team - Dietician at Home',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Top Dietician in Gurgaon | Meet Top Dieticians Near Me',
         description: 'Meet top dieticians near me in Gurgaon. Certified clinical experts with 10+ years experience. Weekly sessions, personalized care & trained at-home visit teams.',
-        images: ['https://dieticianathome.com/care-team-professionals.jpg'],
+        images: ['https://dieticianathome.com/home-visit.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/care-team',

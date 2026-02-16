@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Best Dietician in Gurgaon | Medical Dietician Near Me',
         description: 'Best medical dietician near me in Gurgaon for preconception care. Expert fertility nutrition, pregnancy prep plans & personalized support for couples trying to conceive.',
-        url: 'https://dieticianathome.com/preconception-care',
+        url: 'https://dieticianathome.com/programs/preconception-care',
         siteName: 'Dietician at Home',
         locale: 'en_IN',
         type: 'website',
         images: [{
-            url: 'https://dieticianathome.com/images/programs/preconception-care-og.jpg',
+            url: 'https://dieticianathome.com/health-journey-hero.jpg',
             width: 1200,
             height: 630,
             alt: 'Preconception Nutrition Care - Professional Dietician guidance for couples preparing for pregnancy'
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Best Dietician in Gurgaon | Medical Dietician Near Me',
         description: 'Best medical dietician near me in Gurgaon for preconception care. Expert fertility nutrition, pregnancy prep plans & personalized support for couples trying to conceive.',
-        images: ['https://dieticianathome.com/images/programs/preconception-care-twitter.jpg'],
+        images: ['https://dieticianathome.com/health-journey-hero.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/preconception-care',
+        canonical: 'https://dieticianathome.com/programs/preconception-care',
     },
 };
 

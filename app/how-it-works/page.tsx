@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'Step-by-step guide: Monthly home visits, weekly dietician consultations, personalized meal plans & tracking. Best dietician near me in Gurgaon. No clinic visits.',
         url: 'https://dieticianathome.com/how-it-works',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/how-it-works-process.jpg',
-            width: 1200,
-            height: 630,
-            alt: 'How It Works - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },
@@ -23,7 +17,6 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'How Dietician Gurgaon Works | Best Dietician Near Me Process',
         description: 'Step-by-step guide: Monthly home visits, weekly dietician consultations, personalized meal plans & tracking. Best dietician near me in Gurgaon. No clinic visits.',
-        images: ['https://dieticianathome.com/how-it-works-process.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/how-it-works',

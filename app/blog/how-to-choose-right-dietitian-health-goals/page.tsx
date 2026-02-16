@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80',
+                url: 'https://www.dieticianathome.com/how-to-choose-right-dietitian-health-goals.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Professional Indian dietitian consulting with client at home',
@@ -28,7 +28,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "How to Choose the Right Nutritionist Dietician Near Me | Expert Guide",
         description: "Expert guide on selecting the right dietician for your health goals and nutrition needs.",
-        images: ['https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&q=80'],
+        images: ['https://www.dieticianathome.com/how-to-choose-right-dietitian-health-goals.jpg'],
     },
 };
 
@@ -41,7 +41,7 @@ export default function ChooseRightDietitianBlog() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "How to Choose the Right Dietitian for Your Health Goals",
-        "image": "https://dieticianathome.com/how-to-choose-right-dietitian-health-goals.jpg",
+        "image": "https://www.dieticianathome.com/how-to-choose-right-dietitian-health-goals.jpg",
         "author": {
             "@type": "Person",
             "name": "Priya Sharma"

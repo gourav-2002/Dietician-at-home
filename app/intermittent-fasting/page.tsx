@@ -11,11 +11,11 @@ export const metadata: Metadata = {
         title: 'Top 10 Dietician in Gurgaon | Dietician Nutritionist Near Me',
         description:
             'Top-rated dietician nutritionist near me in Gurgaon for intermittent fasting. Expert IF plans, 16:8 protocols, fat loss & metabolic health at your doorstep.',
-        url: 'https://dieticianathome.com/programs/intermittent-fasting',
+        url: 'https://www.dieticianathome.com/programs/intermittent-fasting',
         siteName: 'Dietitian at Home',
         images: [
             {
-                url: 'https://dieticianathome.com/intermittent-fasting-care.jpg',
+                url: 'https://dieticianathome.com/intermittent-fasting-home-1.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Intermittent Fasting Program - Dietitian at Home',
@@ -29,10 +29,10 @@ export const metadata: Metadata = {
         title: 'Top 10 Dietician in Gurgaon | Dietician Nutritionist Near Me',
         description:
             'Top-rated dietician nutritionist near me in Gurgaon for intermittent fasting. Expert IF plans, 16:8 protocols, fat loss & metabolic health at your doorstep.',
-        images: ['https://dieticianathome.com/intermittent-fasting-care.jpg'],
+        images: ['https://dieticianathome.com/intermittent-fasting-home-1.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/programs/intermittent-fasting',
+        canonical: 'https://www.dieticianathome.com/programs/intermittent-fasting',
     },
 };
 

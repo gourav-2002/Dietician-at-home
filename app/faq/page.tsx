@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'FAQ: Best dietician near me for weight loss in Gurgaon. Learn about Makhija-level expertise, pricing, meal plans, at-home sessions & weight loss programs.',
         url: 'https://dieticianathome.com/faq',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/faq-support.jpg',
-            width: 1200,
-            height: 630,
-            alt: 'FAQ - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },
@@ -23,7 +17,6 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Makhija Dietician Gurgaon FAQ | Best for Weight Loss Near Me',
         description: 'FAQ: Best dietician near me for weight loss in Gurgaon. Learn about Makhija-level expertise, pricing, meal plans, at-home sessions & weight loss programs.',
-        images: ['https://dieticianathome.com/faq-support.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/faq',

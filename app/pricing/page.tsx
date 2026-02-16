@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'Dietician near me with fees in Gurgaon: ₹2,499/month general, ₹3,499/month specialized. Weight loss programs include home visits, weekly sessions & meal plans.',
         url: 'https://dieticianathome.com/pricing',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/pricing-plans.jpg',
-            width: 1200,
-            height: 630,
-            alt: 'Pricing Plans - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },
@@ -23,7 +17,6 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Dietician in Gurgaon for Weight Loss | Fees & Pricing',
         description: 'Dietician near me with fees in Gurgaon: ₹2,499/month general, ₹3,499/month specialized. Weight loss programs include home visits, weekly sessions & meal plans.',
-        images: ['https://dieticianathome.com/pricing-plans.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/pricing',

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         url: 'https://dieticianathome.com/who-is-this-for',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/who-is-this-for.jpg',
+            url: 'https://dieticianathome.com/persona-busy-professional.jpg',
             width: 1200,
             height: 630,
             alt: 'Who Is This For - Dietician at Home',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Dietitian in Medanta Gurgaon | Find Dietician Dr Near Me',
         description: 'Find expert dietician dr near me & dietitian in Medanta Gurgaon area. Perfect for busy professionals, families, seniors, PCOD/diabetes patients & serious health goals.',
-        images: ['https://dieticianathome.com/who-is-this-for.jpg'],
+        images: ['https://dieticianathome.com/persona-busy-professional.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/who-is-this-for',

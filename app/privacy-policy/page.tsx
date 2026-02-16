@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'Privacy policy for best dietician in Gurugram & nutritionist in Delhi NCR. Learn how Dietician at Home protects your health data. GDPR compliant & secure.',
         url: 'https://dieticianathome.com/privacy-policy',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/logo.png',
-            width: 1200,
-            height: 630,
-            alt: 'Privacy Policy - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },

@@ -6,7 +6,7 @@ export const metadata = {
     description: "Discover why seniors need specialized nutrition care at home. Expert guidance from the best dietician in Delhi NCR on age-appropriate meal planning, health monitoring, and doorstep support for elderly wellness.",
     keywords: "best dietician in Delhi NCR, dieticians in Noida, elderly nutrition, senior citizen diet, elder care nutrition, home dietitian for elderly, geriatric nutrition, nutrition for seniors, at-home nutrition care, Delhi NCR dietitian",
     alternates: {
-        canonical: 'https://dieticianathome.com/blog/elder-care-nutrition-specialized-diet-plans-seniors',
+        canonical: 'https://www.dieticianathome.com/blog/elder-care-nutrition-specialized-diet-plans-seniors',
     },
     openGraph: {
         title: "Elder Care Nutrition: Why Seniors Need Specialized Diet Plans at Home",
@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: '/elder-care-nutrition-specialized-diet-plans-seniors.jpg',
+                url: 'https://www.dieticianathome.com/elder-care-nutrition-specialized-diet-plans-seniors.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Professional dietitian consulting with elderly Indian couple at home about nutrition care',
@@ -28,7 +28,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Elder Care Nutrition: Why Seniors Need Specialized Diet Plans at Home",
         description: "Expert guidance from the best dietician in Delhi NCR on age-appropriate meal planning for elderly wellness.",
-        images: ['https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=1200&q=80'],
+        images: ['https://www.dieticianathome.com/elder-care-nutrition-specialized-diet-plans-seniors.jpg'],
     },
 };
 
@@ -41,7 +41,7 @@ export default function ElderCareNutritionBlogPost() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Elder Care Nutrition: Why Seniors Need Specialized Diet Plans at Home",
-        "image": "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=1200&q=80",
+        "image": "https://www.dieticianathome.com/elder-care-nutrition-specialized-diet-plans-seniors.jpg",
         "author": {
             "@type": "Person",
             "name": "Anita Menon"

@@ -109,6 +109,17 @@ const Blog: React.FC = () => {
       readingTime: '8 min read',
       image: '/5-reasons-diet-failed-at-home-monitoring.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 9,
+      slug: 'delhi-ncr-food-culture-diet-goals-balance',
+      category: 'Nutrition Tips',
+      date: 'Feb 16, 2026',
+      title: 'How the Best Nutritionist in Delhi Helps You Navigate the City\'s Irresistible Food Scene',
+      excerpt: 'Struggling to balance Delhi NCR\'s rich food culture with your diet goals? The best nutritionist in Delhi shares practical tips to enjoy local cuisine while achieving weight loss.',
+      readingTime: '12 min read',
+      image: '/delhi-ncr-food-culture-diet-goals-balance.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 

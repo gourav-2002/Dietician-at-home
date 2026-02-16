@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: 'https://images.unsplash.com/photo-1554224311-beee4ade7b86?w=1200&q=80',
+                url: 'https://www.dieticianathome.com/why-traditional-diet-charts-fail.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Frustrated person looking at traditional diet chart with healthy food',
@@ -28,7 +28,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Why Traditional Diet Charts Fail: The Case for Weekly Nutrition Monitoring",
         description: "Discover why diet charts fail and how weekly monitoring by top dieticians in Noida delivers real results.",
-        images: ['https://images.unsplash.com/photo-1554224311-beee4ade7b86?w=1200&q=80'],
+        images: ['https://www.dieticianathome.com/why-traditional-diet-charts-fail.jpg'],
     },
 };
 
@@ -41,7 +41,7 @@ export default function DietChartsBlogPost() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Why Traditional Diet Charts Fail: The Case for Weekly Nutrition Monitoring",
-        "image": "https://images.unsplash.com/photo-1554224311-beee4ade7b86?w=1200&q=80",
+        "image": "https://www.dieticianathome.com/why-traditional-diet-charts-fail.jpg",
         "author": {
             "@type": "Person",
             "name": "Anita Menon"

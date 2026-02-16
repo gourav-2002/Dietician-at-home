@@ -44,9 +44,9 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
     { name: "Cancer Recovery", page: "/programs/cancer-recovery", icon: Ribbon, color: "text-teal-500", bg: "bg-teal-50" },
     { name: "Family Nutrition", page: "/programs/family-nutrition", icon: Users, color: "text-emerald-500", bg: "bg-emerald-50" },
     { name: "Elderly Nutrition", page: "/programs/elderly-nutrition", icon: UserPlus, color: "text-green-500", bg: "bg-green-50" },
-    { name: "Keto Program", page: "/keto-diet", icon: Flame, color: "text-orange-500", bg: "bg-orange-50" },
-    { name: 'Gut Wellness', page: '/gut-wellness', icon: Leaf, color: "text-lime-500", bg: "bg-lime-50" },
-    { name: 'Intermittent Fasting', page: '/intermittent-fasting', icon: Clock, color: "text-amber-500", bg: "bg-amber-50" },
+    { name: "Keto Program", page: "/programs/keto-diet", icon: Flame, color: "text-orange-500", bg: "bg-orange-50" },
+    { name: 'Gut Wellness', page: '/programs/gut-wellness', icon: Leaf, color: "text-lime-500", bg: "bg-lime-50" },
+    { name: 'Intermittent Fasting', page: '/programs/intermittent-fasting', icon: Clock, color: "text-amber-500", bg: "bg-amber-50" },
   ];
 
   const aboutItems = [

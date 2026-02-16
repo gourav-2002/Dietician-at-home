@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Best Dietician in Gurgaon for PCOD/PCOS | Good Near Me',
         description: 'Good dietician near me for PCOD/PCOS care in Gurgaon. Specialized hormone balance, insulin management & weight loss plans with weekly at-home consultations.',
-        url: 'https://dieticianathome.com/pcod-care',
+        url: 'https://dieticianathome.com/programs/pcod-care',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/pcod-pcos-care.jpg',
+            url: 'https://dieticianathome.com/hormonal-harmony.jpg',
             width: 1200,
             height: 630,
             alt: 'PCOD/PCOS Diet Program - Dietician at Home',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Best Dietician in Gurgaon for PCOD/PCOS | Good Near Me',
         description: 'Good dietician near me for PCOD/PCOS care in Gurgaon. Specialized hormone balance, insulin management & weight loss plans with weekly at-home consultations.',
-        images: ['https://dieticianathome.com/pcod-pcos-care.jpg'],
+        images: ['https://dieticianathome.com/hormonal-harmony.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/pcod-care',
+        canonical: 'https://dieticianathome.com/programs/pcod-care',
     },
 };
 

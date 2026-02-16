@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: '/monthly-home-visits-nutrition-care-benefits.jpg',
+                url: 'https://www.dieticianathome.com/monthly-home-visits-nutrition-care-benefits.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Professional dietitian conducting home visit with Indian family',
@@ -28,7 +28,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "Why Monthly Home Visits Make Nutrition Care More Effective",
         description: "Professional home-based nutrition care that fits your life. Monthly visits, weekly consultations, measurable results.",
-        images: ['/monthly-home-visits-nutrition-care-benefits.jpg'],
+        images: ['https://www.dieticianathome.com/monthly-home-visits-nutrition-care-benefits.jpg'],
     },
 };
 
@@ -41,7 +41,7 @@ export default function MonthlyHomeVisitsBlogPost() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Why Monthly Home Visits Make Nutrition Care More Effective",
-        "image": "https://dieticianathome.com/monthly-home-visits-nutrition-care-benefits.jpg",
+        "image": "https://www.dieticianathome.com/monthly-home-visits-nutrition-care-benefits.jpg",
         "author": {
             "@type": "Person",
             "name": "Priya Sharma"

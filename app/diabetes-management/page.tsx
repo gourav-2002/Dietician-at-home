@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Dietitian Gurgaon for Diabetes | Weight Loss Dietician',
         description: 'Expert dietitian in Gurgaon for diabetes & weight loss. Personalized blood sugar control plans, Type 2 management & at-home consultations near me.',
-        url: 'https://dieticianathome.com/diabetes-management',
+        url: 'https://dieticianathome.com/programs/diabetes-management',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/diabetes-management-care.jpg',
+            url: 'https://dieticianathome.com/diabets-managments.jpg',
             width: 1200,
             height: 630,
             alt: 'Diabetes Management Program - Dietician at Home',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Dietitian Gurgaon for Diabetes | Weight Loss Dietician',
         description: 'Expert dietitian in Gurgaon for diabetes & weight loss. Personalized blood sugar control plans, Type 2 management & at-home consultations near me.',
-        images: ['https://dieticianathome.com/diabetes-management-care.jpg'],
+        images: ['https://dieticianathome.com/diabets-managments.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/diabetes-management',
+        canonical: 'https://dieticianathome.com/programs/diabetes-management',
     },
 };
 

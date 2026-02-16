@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80',
+                url: 'https://www.dieticianathome.com/first-month-home-dietitian-service.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Professional Indian dietitian conducting at-home health assessment with modern monitoring equipment',
@@ -28,8 +28,8 @@ export const metadata = {
         card: 'summary_large_image',
         title: "First Month with Dietician Dr Near Me - Complete Guide",
         description: "Your complete guide to the first month with a professional home dietitian service.",
-        images: ['https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80'],
-    },
+            images: ['https://www.dieticianathome.com/first-month-home-dietitian-service.jpg'],
+        },
 };
 
 export default function FirstMonthDietitianBlogPost() {
@@ -41,7 +41,7 @@ export default function FirstMonthDietitianBlogPost() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "What Happens in Your First Month with a Home Dietitian Service",
-        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80",
+        "image": "https://www.dieticianathome.com/first-month-home-dietitian-service.jpg",
         "author": {
             "@type": "Person",
             "name": "Anita Menon"

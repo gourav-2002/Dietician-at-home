@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         url: 'https://dieticianathome.com/app-tools',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/feature-mobile-app.png',
+            url: 'https://www.dieticianathome.com/app-tools-banner.jpg',
             width: 1200,
             height: 630,
             alt: 'Dietician at Home Mobile App Interface',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Online Dietician Near Me | Dietician Near By Me with App',
         description: 'Find online dietician near me & dietician near by me in Gurgaon. Track meals, get personalized plans, sync health data & schedule sessions via smart app.',
-        images: ['https://dieticianathome.com/feature-mobile-app.png'],
+        images: ['https://www.dieticianathome.com/app-tools-banner.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/app-tools',

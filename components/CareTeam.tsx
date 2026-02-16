@@ -141,7 +141,7 @@ const CareTeam: React.FC = () => {
             </div>
           </div>
 
-          {/* Dt. Kirti Gulati - Enhanced Profile */}
+          {/* Dt. Sushma Vyas - Enhanced Profile */}
           <div className="max-w-5xl mx-auto bg-gradient-to-br from-white to-[#F8FFF9] rounded-[60px] p-12 md:p-20 shadow-[0_30px_80px_-15px_rgba(33,115,40,0.15)] border-2 border-[#217328]/20 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-3 bg-gradient-to-r from-[#217328] via-blue-500 to-[#217328]"></div>
 
@@ -151,18 +151,18 @@ const CareTeam: React.FC = () => {
 
             <div className="relative z-10">
               <div className="text-center mb-12">
-                <h3 className="text-5xl font-black text-[#1F2937] mb-3">Dr. Kirti Gulati</h3>
-                <p className="text-[#217328] font-bold text-base uppercase tracking-[0.2em] mb-4">Senior Nutrition Advisor • 17+ Years Experience</p>
-                <p className="text-blue-600 font-bold text-sm mb-6">Founder, Saar Healthcare</p>
+                <h3 className="text-5xl font-black text-[#1F2937] mb-3">Dr. Sushma Vyas</h3>
+                <p className="text-[#217328] font-bold text-base uppercase tracking-[0.2em] mb-4">Senior Nutrition Advisor • 27+ Years Experience</p>
+                {/* <p className="text-blue-600 font-bold text-sm mb-6">Founder, Saar Healthcare</p> */}
                 <p className="text-xl text-gray-600 font-medium leading-relaxed max-w-3xl mx-auto">
-                  With over 17 years of professional experience, Dr. Kirti leads our nutrition strategy and serves as our Senior Nutrition Advisor. Her deep understanding of metabolic health and client care ensures that our "Partner Dieticians" deliver world-class service to every client.
+                  With over 27 years of professional experience, Dr. Sushma Vyas leads our nutrition strategy and serves as our Senior Nutrition Advisor. Her deep understanding of metabolic health and client care ensures that our "Partner Dieticians" deliver world-class service to every client.
                 </p>
               </div>
 
               {/* Specialties */}
               <div className="mb-10">
-                <h4 className="text-lg font-bold text-[#1F2937] mb-4 uppercase tracking-wider">Specialties</h4>
-                <div className="flex flex-wrap gap-3">
+                <h4 className="text-lg font-bold text-[#1F2937] mb-4 uppercase tracking-wider text-center">Specialties</h4>
+                <div className="flex flex-wrap gap-3 justify-center">
                   <span className="px-5 py-2.5 bg-[#E8F5E9] text-[#217328] rounded-xl font-bold text-xs uppercase tracking-wider border border-[#217328]/20">Dietitian/Nutritionist</span>
                   <span className="px-5 py-2.5 bg-[#E8F5E9] text-[#217328] rounded-xl font-bold text-xs uppercase tracking-wider border border-[#217328]/20">Health Specialist</span>
                   <span className="px-5 py-2.5 bg-[#E8F5E9] text-[#217328] rounded-xl font-bold text-xs uppercase tracking-wider border border-[#217328]/20">Sports Nutritionist</span>
@@ -173,7 +173,7 @@ const CareTeam: React.FC = () => {
               </div>
 
               {/* Education & Experience */}
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
+              {/* <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-[#217328]/10">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
@@ -199,10 +199,10 @@ const CareTeam: React.FC = () => {
                     <span className="text-gray-500">Fortis Escorts Hospital, Faridabad</span>
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               {/* Professional Memberships */}
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-[#217328]/10">
+              {/* <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-[#217328]/10">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center">
                     <Award size={24} className="text-amber-600" />
@@ -212,7 +212,7 @@ const CareTeam: React.FC = () => {
                 <p className="text-gray-700 font-medium">
                   <strong>Indian Dietetic Association</strong> - Active Member
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 

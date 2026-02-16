@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'Service disclosure by best nutritionist in Delhi NCR & licensed dietician near me. Complete transparency on qualifications, scope, limitations & service standards.',
         url: 'https://dieticianathome.com/service-disclosure',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/logo.png',
-            width: 1200,
-            height: 630,
-            alt: 'Service Disclosure - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },

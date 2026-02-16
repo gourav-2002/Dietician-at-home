@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Medical Dietician Near Me | Best Dietician Clinic Gurgaon',
         description: 'Medical dietician near me at best dietician clinic in Gurgaon for postpartum care. Expert lactation, recovery & breastfeeding nutrition with at-home support.',
-        url: 'https://dieticianathome.com/postpartum-care',
+        url: 'https://dieticianathome.com/programs/postpartum-care',
         siteName: 'Dietician at Home',
         images: [{
             url: 'https://dieticianathome.com/postpartum-care.jpg',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         images: ['https://dieticianathome.com/postpartum-care.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/postpartum-care',
+        canonical: 'https://dieticianathome.com/programs/postpartum-care',
     },
 };
 

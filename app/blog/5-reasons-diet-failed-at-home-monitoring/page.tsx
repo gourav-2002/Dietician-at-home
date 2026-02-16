@@ -15,7 +15,7 @@ export const metadata = {
         siteName: 'Dietitian at Home',
         images: [   
             {
-                url: '/5-reasons-diet-failed-at-home-monitoring.jpg',
+                url: 'https://www.dieticianathome.com/5-reasons-diet-failed-at-home-monitoring.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Indian woman having video consultation with professional dietitian at home',
@@ -28,7 +28,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: "5 Reasons Your Diet Failed—And How At-Home Monitoring Fixes It",
         description: "Professional at-home nutrition monitoring that addresses why diets fail and creates lasting results.",
-        images: ['https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80'],
+        images: ['https://www.dieticianathome.com/5-reasons-diet-failed-at-home-monitoring.jpg'],
     },
 };
 
@@ -41,7 +41,7 @@ export default function DietFailedBlogPost() {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "5 Reasons Your Diet Failed—And How At-Home Monitoring Fixes It",
-        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80",
+        "image": "https://www.dieticianathome.com/5-reasons-diet-failed-at-home-monitoring.jpg",
         "author": {
             "@type": "Person",
             "name": "Dietitian at Home Editorial Team"

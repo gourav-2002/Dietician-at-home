@@ -10,12 +10,6 @@ export const metadata: Metadata = {
         description: 'Medical disclaimer for licensed & certified dietician near me in Gurgaon. Understand scope, limitations & professional guidance boundaries of nutrition services.',
         url: 'https://dieticianathome.com/medical-disclaimer',
         siteName: 'Dietician at Home',
-        images: [{
-            url: 'https://dieticianathome.com/logo.png',
-            width: 1200,
-            height: 630,
-            alt: 'Medical Disclaimer - Dietician at Home',
-        }],
         locale: 'en_IN',
         type: 'website',
     },

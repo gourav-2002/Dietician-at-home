@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Best Cancer Recovery Nutritionist and Dietitian Near Me',
         description: 'Best nutritionists near me for cancer recovery in Gurgaon. Specialized post-treatment nutrition, immunity building & strength support with at-home care.',
-        url: 'https://dieticianathome.com/cancer-recovery',
+        url: 'https://dieticianathome.com/programs/cancer-recovery',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/cancer-recovery-care.jpg',
+            url: 'https://dieticianathome.com/cancer-recovery-hero.jpg',
             width: 1200,
             height: 630,
             alt: 'Cancer Recovery Nutrition Program - Dietician at Home',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Best Cancer Recovery Nutritionist and Dietitian Near Me',
         description: 'Best nutritionists near me for cancer recovery in Gurgaon. Specialized post-treatment nutrition, immunity building & strength support with at-home care.',
-        images: ['https://dieticianathome.com/cancer-recovery-care.jpg'],
+        images: ['https://www.dieticianathome.com/cancer-recovery-hero.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/cancer-recovery',
+        canonical: 'https://dieticianathome.com/programs/cancer-recovery',
     },
 };
 

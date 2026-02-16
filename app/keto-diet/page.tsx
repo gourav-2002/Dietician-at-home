@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         url: 'https://dieticianathome.com/programs/keto-diet',
         siteName: 'Dietitian at Home',
         images: [{
-            url: 'https://dieticianathome.com/keto-diet-care.jpg',
+            url: 'https://dieticianathome.com/keto-diet-1.jpg',
             width: 1200,
             height: 630,
             alt: 'Keto Diet Program - Dietitian at Home',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Keto Dietician in Gurgaon | Best Keto Dietician Near Me',
         description: 'Expert keto dietician near me in Gurgaon for rapid fat loss. Personalized ketogenic meal plans, macros tracking & weekly at-home consultations.',
-        images: ['https://dieticianathome.com/keto-diet-care.jpg'],
+        images: ['https://dieticianathome.com/keto-diet-1.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/programs/keto-diet',

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         siteName: 'Dietitian at Home',
         images: [
             {
-                url: 'https://dieticianathome.com/gut-wellness-care.jpg',
+                url: 'https://dieticianathome.com/gut-wellness-home-2.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Gut Wellness Program - Dietitian at Home',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         title: 'Best Dietician Clinic in Gurgaon | IBS Dieticians Near Me',
         description:
             'Top IBS dieticians near me at best dietician clinic in Gurgaon. Expert gut health care, bloating relief, acidity management & personalized digestive wellness plans.',
-        images: ['https://dieticianathome.com/gut-wellness-care.jpg'],
+        images: ['https://dieticianathome.com/gut-wellness-home-2.jpg'],
     },
     alternates: {
         canonical: 'https://dieticianathome.com/programs/gut-wellness',

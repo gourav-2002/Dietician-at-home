@@ -8,10 +8,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Family Dietician Near Me in Gurgaon | Nutritionists',
         description: 'Find family dietician & nutritionists near me in Gurgaon. Coordinated meal plans for entire household, consolidated grocery lists & at-home visits.',
-        url: 'https://dieticianathome.com/family-nutrition',
+        url: 'https://dieticianathome.com/programs/family-nutrition',
         siteName: 'Dietician at Home',
         images: [{
-            url: 'https://dieticianathome.com/family-nutrition-care.jpg',
+            url: 'https://dieticianathome.com/nutrition-care-for-family-1.jpg',
             width: 1200,
             height: 630,
             alt: 'Family Nutrition Program - Dietician at Home',
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Family Dietician Near Me in Gurgaon | Nutritionists',
         description: 'Find family dietician & nutritionists near me in Gurgaon. Coordinated meal plans for entire household, consolidated grocery lists & at-home visits.',
-        images: ['https://dieticianathome.com/family-nutrition-care.jpg'],
+        images: ['https://dieticianathome.com/nutrition-care-for-family-1.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/family-nutrition',
+        canonical: 'https://dieticianathome.com/programs/family-nutrition',
     },
 };
 
