@@ -10,6 +10,9 @@ import DiabetesManagement from '@/components/DiabetesManagement';
 import CancerRecovery from '@/components/CancerRecovery';
 import FamilyNutrition from '@/components/FamilyNutrition';
 import ElderlyNutrition from '@/components/ElderlyNutrition';
+import GutWellness from '@/components/GutWellness';
+import KetoProgram from '@/components/KetoProgram';
+import IntermittentFasting from '@/components/IntermittentFasting';
 
 const programs = {
     'weight-management': {
@@ -71,6 +74,24 @@ const programs = {
         title: 'Elderly Nutrition | Age-Appropriate Nutrition for Seniors - Dietician at Home',
         description: 'Age-appropriate nutrition guidance for senior citizens with focus on mobility and general wellness.',
         keywords: 'elderly nutrition, senior diet, geriatric nutrition, senior citizen health',
+    },
+    'gut-wellness': {
+        component: GutWellness,
+        title: 'Best Dietician Clinic in Gurgaon | IBS Dieticians Near Me',
+        description: 'Top IBS dieticians near me at best dietician clinic in Gurgaon. Expert gut health care, bloating relief, acidity management & personalized digestive wellness plans.',
+        keywords: 'best dietician clinic in gurgaon, ibs dieticians near me, gut wellness program, gut health dietician gurgaon, digestive health program, gut healing diet, bloating acidity diet, microbiome health, IBS diet plan gurgaon',
+    },
+    'keto-diet': {
+        component: KetoProgram,
+        title: 'Keto Dietician in Gurgaon | Best Keto Dietician Near Me',
+        description: 'Expert keto dietician near me in Gurgaon for rapid fat loss. Personalized ketogenic meal plans, macros tracking & weekly at-home consultations.',
+        keywords: 'keto dietician in gurgaon, keto dietician near me, keto diet, ketogenic diet gurgaon, fat loss program, keto weight loss, low carb dietician gurgaon, keto meal plan, ketogenic nutrition',
+    },
+    'intermittent-fasting': {
+        component: IntermittentFasting,
+        title: 'Top 10 Dietician in Gurgaon | Dietician Nutritionist Near Me',
+        description: 'Top-rated dietician nutritionist near me in Gurgaon for intermittent fasting. Expert IF plans, 16:8 protocols, fat loss & metabolic health at your doorstep.',
+        keywords: 'top 10 dietician in gurgaon, dietician nutritionist near me, intermittent fasting program, intermittent fasting dietician gurgaon, IF diet plan, 16:8 fasting, metabolic health program, fat loss fasting plan, insulin resistance diet gurgaon',
     },
 };
 

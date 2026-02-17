@@ -76,6 +76,21 @@ const nextConfig = {
                 destination: '/corporate',
                 permanent: true,
             },
+            {
+                source: '/gut-wellness',
+                destination: '/programs/gut-wellness',
+                permanent: true,
+            },
+            {
+                source: '/keto-diet',
+                destination: '/programs/keto-diet',
+                permanent: true,
+            },
+            {
+                source: '/intermittent-fasting',
+                destination: '/programs/intermittent-fasting',
+                permanent: true,
+            },
         ];
     },
 
