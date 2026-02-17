@@ -15,7 +15,9 @@ import {
   Apple,
   Clock,
   AlertCircle,
-  Utensils
+  Utensils,
+  HeartPulse,
+  Zap
 } from 'lucide-react';
 
 const ElderlyNutrition: React.FC = () => {
@@ -51,12 +53,12 @@ const ElderlyNutrition: React.FC = () => {
               <span className="text-slate-300">/</span>
               <span className="text-[#217328]">Elderly Nutrition</span>
             </nav>
-            <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.05] tracking-tight text-slate-900">
+            <h1 className="text-4xl md:text-5xl font-extrabold leading-[1.05] tracking-tight text-slate-900">
               Nutrition Support for
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#217328] to-[#43A047]"> Active Aging with the Best Nutritionist in Gurgaon</span>
             </h1>
-            <p className="text-xl md:text-2xl text-slate-600 max-w-xl leading-relaxed font-medium">
-              Specialized in-home nutrition care designed to support the health and independence of seniors.
+            <p className="text-lg md:text-xl text-slate-600 max-w-xl leading-relaxed font-medium">
+              Support your independence and vitality with compassionate guidance from the best nutritionist in Gurgaon specializing in senior care. Professional nutrition delivered to your doorstep with weekly support from dieticians and nutritionists near me who understand aging health needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
               <button onClick={() => router.push('/contact')} className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-bold text-lg shadow-2xl shadow-[#217328]/20 hover:bg-[#1B5E20] hover:-translate-y-1 transition-all active:scale-95">
@@ -82,7 +84,7 @@ const ElderlyNutrition: React.FC = () => {
       </section>
 
       {/* SECTION 2: WHO THIS IS FOR */}
-      <section className="py-20 px-6 bg-white border-b border-slate-100">
+      {/* <section className="py-20 px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-black text-slate-900 mb-6">Who This Program Is For – Those Looking for Dieticians and Nutritionists Nearby</h2>
           <p className="text-lg text-slate-600 mb-12 leading-relaxed">
@@ -100,6 +102,67 @@ const ElderlyNutrition: React.FC = () => {
                 <span className="font-medium text-slate-700">{item}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </section> */}
+
+            <section className="pt-32 pb-20 px-6 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-20 items-center">
+            <div className="space-y-8">
+              <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900">Why the Best Nutritionist in Gurgaon Says Specialized Care <br /><span className="text-[#217328]">Matters with Age</span></h2>
+              <p className="text-lg text-slate-600 leading-relaxed font-medium">
+                As we age, the best nutritionist in Gurgaon understands that body requirements for protein, vitamins, and hydration change significantly. Generic diets don't account for medication interactions or metabolic shifts that dieticians and nutritionists near me address for seniors across Gurgaon.
+              </p>
+              <div className="grid sm:grid-cols-2 gap-6">
+                {[
+                  { icon: <Activity />, title: "Metabolic Precision", desc: "Best nutritionist in Gurgaon adapts to natural nutrient absorption changes." },
+                  { icon: <Heart />, title: "Organ Support", desc: "Dieticians and nutritionists near me design nutrition respecting heart and kidney health." },
+                  { icon: <ShieldCheck />, title: "Immunity Boost", desc: "Best nutritionist in Gurgaon creates nutrient-dense plans to keep seniors strong." },
+                  { icon: <Apple />, title: "Active Vitality", desc: "Dieticians and nutritionists near me manage energy for an active senior lifestyle." }
+                ].map((item, i) => (
+                  <div key={i} className="p-6 bg-slate-50 rounded-[32px] border border-slate-100 hover:bg-[#E8F5E9]/50 transition-colors">
+                    <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center mb-4 text-[#217328] shadow-sm">
+                      {React.cloneElement(item.icon as React.ReactElement, { size: 20 })}
+                    </div>
+                    <h4 className="font-bold text-slate-900 mb-1 text-base leading-6">{item.title}</h4>
+                    <p className="text-base leading-6 text-slate-500 font-medium">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="bg-[#1E293B] rounded-[60px] p-12 text-white relative overflow-hidden group">
+              {/* soft glow */}
+              <div className="absolute -top-10 -right-10 w-72 h-72 bg-[#217328]/20 rounded-full blur-3xl"></div>
+
+              <h3 className="text-3xl font-bold mb-4 leading-tight">
+                Where Most Senior Nutrition Care Breaks Down
+              </h3>
+
+              <p className="text-slate-300 text-base mb-10 leading-6 max-w-md">
+                The best nutritionist in Gurgaon knows that senior nutrition fails when it's fragmented, stressful, or disconnected from daily life. Dieticians and nutritionists near me fix that by bringing structure, clarity, and continuity.
+              </p>
+
+              <div className="space-y-6 text-base leading-6">
+                {[
+                  "No need to travel, wait in queues, or manage clinic fatigue—best nutritionist in Gurgaon comes to you",
+                  "One consistent nutrition plan from dieticians and nutritionists near me—not mixed advice from multiple doctors",
+                  "Meals adjusted for chewing comfort, digestion & appetite changes by best nutritionist in Gurgaon",
+                  "Ongoing tracking of weight, strength & health parameters by dieticians and nutritionists near me",
+                  "Clear coordination with family members and caregivers across Gurgaon"
+                ].map((challenge, i) => (
+                  <div key={i} className="flex items-start gap-4">
+                    <div className="w-7 h-7 bg-[#217328]/25 text-[#A5D6A7] rounded-full flex items-center justify-center shrink-0 mt-1">
+                      <ArrowRight size={14} />
+                    </div>
+                    <span className="text-slate-200 font-medium">
+                      {challenge}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -263,13 +326,40 @@ const ElderlyNutrition: React.FC = () => {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-white text-center">
+      {/* <section className="py-20 bg-white text-center">
         <div className="max-w-4xl mx-auto px-6 space-y-12">
-          <h2 className="text-4xl md:text-6xl font-black">Support Your Health</h2>
-          <p className="text-slate-500 text-xl font-medium max-w-2xl mx-auto">Professional care in the comfort of your home.</p>
+          <h2 className="text-4xl md:text-6xl font-black">Start Your Journey to Better Senior Health</h2>
+          <p className="text-slate-500 text-xl font-medium max-w-4xl mx-auto">Work with the best nutritionist in Gurgaon for professional doorstep senior care. Experience compassionate support from dieticians and nutritionists near me across Gurgaon. We support your independence and vitality.</p>
           <button onClick={() => router.push('/contact')} className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-bold text-xl shadow-2xl hover:scale-105 transition-all">
             Contact Us
           </button>
+        </div>
+      </section> */}
+
+       <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_#334155_1px,_transparent_1px)] bg-[length:24px_24px]"></div>
+        </div>
+        <div className="max-w-6xl mx-auto px-6 text-center relative z-10 space-y-12">
+          <div className="w-20 h-20 bg-[#217328] rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl animate-pulse">
+            <Heart size={40} className="text-white" fill="white" />
+          </div>
+          <h2 className="text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter">Start Your Journey to <span className="text-[#4CAF50]">Better Senior Health</span></h2>
+          <p className="text-xl md:text-2xl text-slate-400 font-medium max-w-4xl mx-auto">
+            Work with the best nutritionist in Gurgaon for professional doorstep senior care. Experience compassionate support from dieticians and nutritionists near me across Gurgaon. We support your independence and vitality.
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-6">
+            <Link href="/contact" className="px-12 py-6 bg-[#217328] text-white rounded-2xl font-bold text-xl shadow-2xl shadow-[#217328]/20 hover:scale-105 transition-all">
+              Schedule Free Consultation
+            </Link>
+            <Link
+              href="tel:+919899480775"
+              className="px-12 py-6 border-2 border-white/20 text-white rounded-2xl font-bold text-xl hover:bg-white/5 transition-all flex items-center justify-center gap-3"
+            >
+              Call: +91 98994 80775
+            </Link>
+          </div>
+          
         </div>
       </section>
 

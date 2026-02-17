@@ -6,12 +6,12 @@ export const metadata = {
     description: "Discover why monthly home visits from a qualified dietician in Gurugram deliver better results than clinic-based nutrition care. Expert insights on effective, convenient nutrition monitoring.",
     keywords: "dietician in gurugram, best dietician in central delhi, home visit dietician, at-home nutrition care, nutrition monitoring, dietitian home visits, doorstep nutrition services, gurugram dietitian, delhi dietician",
     alternates: {
-        canonical: 'https://dieticianathome.com/blog/why-monthly-home-visits-make-nutrition-care-effective',
+        canonical: 'https://dieticianathome.com/blog/monthly-home-visits-nutrition-care-benefits',
     },
     openGraph: {
         title: "Why Monthly Home Visits Make Nutrition Care More Effective",
         description: "Learn how monthly home visits by professional dieticians deliver better results through consistent monitoring, convenience, and personalized care.",
-        url: 'https://dieticianathome.com/blog/why-monthly-home-visits-make-nutrition-care-effective',
+        url: 'https://dieticianathome.com/blog/monthly-home-visits-nutrition-care-benefits',
         siteName: 'Dietitian at Home',
         images: [   
             {
@@ -58,7 +58,7 @@ export default function MonthlyHomeVisitsBlogPost() {
         "description": "Discover why monthly home visits from professional dieticians deliver superior results compared to traditional clinic-based nutrition care.",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://dieticianathome.com/blog/why-monthly-home-visits-make-nutrition-care-effective"
+            "@id": "https://dieticianathome.com/blog/monthly-home-visits-nutrition-care-benefits"
         }
     };
 

@@ -52,9 +52,9 @@ const FamilyNutrition: React.FC = () => {
               Complete Nutrition <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#217328] to-[#43A047]">Support for Your Family</span> - Family Dietician Near You
             </h1>
             <p className="text-xl text-slate-600 max-w-lg leading-relaxed font-medium">
-              Coordinated meal planning for the whole house. One kitchen, multiple health goals supported.
+              Searching for a reliable family dietician near me? Get coordinated nutrition care from qualified dieticians and nutritionists near me who bring professional meal planning directly to your doorstep. One app, one kitchen strategy, personalized guidance for every family member.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <button onClick={() => router.push('/contact')} className="px-10 py-5 bg-[#217328] text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl shadow-[#217328]/20 hover:bg-[#1B5E20] hover:-translate-y-1 transition-all">
                 Enroll My Family
               </button>
@@ -99,7 +99,7 @@ const FamilyNutrition: React.FC = () => {
       </section>
 
       {/* SECTION 3: HOW NUTRITION SUPPORT HELPS */}
-      <section className="py-24 px-6 bg-slate-50">
+      {/* <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-3xl md:text-5xl font-black">How Coordination <span className="text-[#217328]">Helps</span></h2>
@@ -124,7 +124,109 @@ const FamilyNutrition: React.FC = () => {
             ))}
           </div>
         </div>
+      </section> */}
+
+      <section className="py-28 px-6 bg-gradient-to-b from-white to-[#F6FBF7]">
+        <div className="max-w-7xl mx-auto">
+
+          {/* HEADER */}
+          <div className="max-w-4xl mb-20">
+            <span className="inline-block text-[11px] font-black uppercase tracking-[0.35em] text-[#217328] bg-[#E8F5E9] px-5 py-2 rounded-full mb-6">
+              The Solution from Your Trusted Family Dietician Near Me
+            </span>
+
+            <h2 className="text-4xl md:text-5xl font-black leading-tight text-slate-900 mb-6">
+              The <span className="text-[#217328]">Family Group Nutrition System</span>
+              Designed by Expert Dieticians and Nutritionists Near Me
+            </h2>
+
+            <p className="text-lg text-slate-600 leading-relaxed font-medium">
+              Instead of managing multiple diets from different sources, our qualified
+              family dietician near me team engineers a single nutrition system that
+              adapts to every household member. This is what sets top dieticians and
+              nutritionists near me apart—coordinated care, not fragmented advice.
+            </p>
+          </div>
+
+          {/* SYSTEM FLOW */}
+          <div className="relative grid lg:grid-cols-3 gap-12 items-stretch">
+
+            {/* INPUTS */}
+            <div className="rounded-3xl border border-[#217328]/15 bg-white p-10">
+              <h4 className="font-black text-lg text-slate-800 mb-6">
+                Individual Needs
+              </h4>
+
+              <ul className="space-y-5 text-slate-600 font-semibold">
+                <li className="flex items-center gap-3">
+                  <span className="w-2 h-2 bg-[#217328] rounded-full"></span>
+                  Dad's Diabetes Control (managed by specialized dieticians and nutritionists near me)
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="w-2 h-2 bg-[#43A047] rounded-full"></span>
+                  Mom's Energy & Micronutrient Optimization
+                </li>
+                <li className="flex items-center gap-3">
+                  <span className="w-2 h-2 bg-[#66BB6A] rounded-full"></span>
+                  Kids' Growth & Brain Development Support
+                </li>
+              </ul>
+            </div>
+
+            {/* ENGINE */}
+            <div className="relative rounded-[40px] bg-[#217328] text-white p-12 flex flex-col justify-center">
+              <div className="absolute -top-6 left-1/2 -translate-x-1/2 text-[11px] font-black uppercase tracking-widest bg-white text-[#217328] px-6 py-2 rounded-full shadow">
+                Core Engine
+              </div>
+
+              <h4 className="text-2xl font-black mb-6">
+                Dietitian-Led Synchronization
+              </h4>
+
+              <p className="text-white/90 text-lg leading-relaxed">
+                Our certified family dietician near me team merges individual requirements
+                into a unified weekly plan. Every meal is reviewed and refined by qualified
+                dieticians and nutritionists near me—ensuring professional precision
+                without kitchen confusion.
+              </p>
+            </div>
+
+            {/* OUTPUTS */}
+            <div className="rounded-3xl border border-[#217328]/15 bg-white p-10">
+              <h4 className="font-black text-lg text-slate-800 mb-6">
+                What the Family Gets Box:
+              </h4>
+
+              <ul className="space-y-5 text-slate-600 font-semibold">
+                <li className="flex items-start gap-4">
+                  <div className="w-6 h-6 rounded-full bg-[#E8F5E9] flex items-center justify-center text-[#217328] text-sm font-black">
+                    ✓
+                  </div>
+                  One coordinated ingredient list (simplified by your family dietician near me)
+                </li>
+
+                <li className="flex items-start gap-4">
+                  <div className="w-6 h-6 rounded-full bg-[#E8F5E9] flex items-center justify-center text-[#217328] text-sm font-black">
+                    ✓
+                  </div>
+                  Clear home-cook instructions from experienced dieticians and nutritionists near me
+                </li>
+
+                <li className="flex items-start gap-4">
+                  <div className="w-6 h-6 rounded-full bg-[#E8F5E9] flex items-center justify-center text-[#217328] text-sm font-black">
+                    ✓
+                  </div>
+                  Individual health monitoring without extra effort
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
       </section>
+
+
 
       {/* SECTION 4: WHAT THIS IS NOT (LIMITATIONS) */}
       <section className="py-16 px-6 bg-red-50/50 border-y border-red-100">
@@ -223,11 +325,59 @@ const FamilyNutrition: React.FC = () => {
         </div>
       </section>
 
+      {/* Pricing Teaser / Benefits */}
+      <section className="py-32 px-6 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="bg-[#217328] rounded-[60px] p-12 md:p-24 text-white relative overflow-hidden text-center lg:text-left">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
+            <div className="grid lg:grid-cols-2 gap-16 items-center relative z-10">
+              <div className="space-y-8">
+                <h2 className="text-4xl md:text-5xl font-black leading-tight">Affordable Family Dietician Near Me Services for Complete Household Care</h2>
+                <p className="text-xl font-medium opacity-90 max-w-lg">
+                  Why pay multiple dieticians and nutritionists near me separately when one
+                  coordinated family dietician near me service handles everyone? Enjoy significant
+                  savings with our Family Wellness package—professional care without the premium price.
+                </p>
+                <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+                  {["No Travel Cost", "Unified Kitchen", "Group Consultations"].map((tag, i) => (
+                    <span key={i} className="px-4 py-2 bg-white/10 border border-white/20 rounded-full text-[10px] font-black uppercase tracking-widest">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-white rounded-[40px] p-12 text-slate-900 shadow-2xl">
+                <h4 className="text-2xl font-black mb-8 text-center text-[#217328]">Family Package Includes</h4>
+                <div className="space-y-6">
+                  {[
+                    "At-home assessment for all members (by your family dietician near me)",
+                    "Family group dashboard access ",
+                    "Unified grocery & kitchen list (coordinated by dieticians and nutritionists near me)",
+                    "Weekly professional check-ins with your dedicated family dietician near me",
+                    "Dedicated Family Account Manager"
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-center gap-4">
+                      <CheckCircle2 className="w-5 h-5 text-[#217328]" />
+                      <span className="text-sm font-bold text-slate-700">{item}</span>
+                    </div>
+                  ))}
+                </div>
+                <button onClick={() => window.location.hash = 'contact'} className="w-full mt-12 py-5 bg-[#217328] text-white rounded-2xl font-black text-xs uppercase tracking-widest hover:bg-[#1B5E20] transition-all shadow-xl shadow-[#217328]/20">
+                  Get Family Quote
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-20 bg-white text-center">
-        <div className="max-w-4xl mx-auto px-6 space-y-12">
+        <div className="max-w-5xl mx-auto px-6 space-y-12">
           <h2 className="text-4xl md:text-6xl font-black">Support Your Family's Health</h2>
-          <p className="text-slate-500 text-xl font-medium max-w-2xl mx-auto">One plan. Healthy family.</p>
+          <p className="text-slate-500 text-xl font-medium max-w-4xl mx-auto">
+            Stop searching for dieticians and nutritionists near me who offer fragmented advice. Get coordinated, professional household nutrition from a certified family dietician near me who understands your family's unique needs - delivered right to your doorstep.
+          </p>
           <button onClick={() => router.push('/contact')} className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-bold text-xl shadow-2xl hover:scale-105 transition-all">
             Get Started
           </button>

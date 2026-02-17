@@ -60,7 +60,7 @@ const CareTeam: React.FC = () => {
             <span className="text-[#217328]">THE CARE TEAM</span>
           </nav>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6">
-            Meet Your <span className="text-[#217328]">Care Team</span>
+            Meet the <span className="text-[#217328]">Top Dietician in Gurgaon</span>
           </h1>
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto font-medium">
             Qualified professionals from the top dietician in Gurgaon dedicated to your health transformation journey
@@ -89,8 +89,8 @@ const CareTeam: React.FC = () => {
       <section className="py-24 px-6 bg-[#f3f0f7]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-24">
-            <h2 className="text-4xl md:text-5xl font-black text-[#1F2937] mb-6">Built on Genuine Experience</h2>
-            <p className="text-xl text-gray-500 max-w-3xl mx-auto">Founded by those who have walked the path, and guided by experts who know the science.</p>
+            <h2 className="text-4xl md:text-5xl font-black text-[#1F2937] mb-6">Built on Genuine Experience with Top Dietician in Gurgaon</h2>
+            <p className="text-xl text-gray-500 max-w-3xl mx-auto">Founded by those who have walked the path, and guided by top dieticians near me who know the science of nutrition and metabolic health across Gurgaon.</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
@@ -290,7 +290,7 @@ const CareTeam: React.FC = () => {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-20">
           <div className="lg:w-3/5 space-y-10">
             <h2 className="text-4xl md:text-5xl font-black text-[#1F2937]">Our Field Representatives from the Top Dietician in Gurgaon: <span className="text-[#217328]">Your Monthly Touchpoint</span></h2>
-            <p className="text-xl text-gray-600">Trained professionals who bring professional-grade equipment to you, every single month.</p>
+            <p className="text-xl text-gray-600">Trained professionals working under the top dietician in Gurgaon bring professional-grade equipment to your home every single month across DLF Phase, Cyber City, and Golf Course Road.</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {[
@@ -430,13 +430,13 @@ const CareTeam: React.FC = () => {
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] z-10" />
 
         <div className="max-w-4xl mx-auto px-6 relative z-20 text-center text-white space-y-12">
-          <h2 className="text-5xl md:text-7xl font-black leading-tight tracking-tighter">Meet Your Future <br /> Care Team</h2>
+          <h2 className="text-5xl md:text-7xl font-black leading-tight tracking-tighter">Meet the Top Dietician in Gurgaon for Your Health Journey</h2>
           <p className="text-2xl text-white/80 font-light">Qualified professionals ready to guide your transformation</p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <button
               onClick={() => window.location.hash = 'contact'}
-              className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-black text-lg uppercase tracking-widest shadow-2xl shadow-orange-900/40 hover:-translate-y-1 transition-all active:scale-95"
+              className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-black text-lg uppercase tracking-widest hover:-translate-y-1 transition-all active:scale-95"
             >
               Get Started Today
             </button>

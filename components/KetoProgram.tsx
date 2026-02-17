@@ -193,7 +193,7 @@ const KetoProgram: React.FC = () => {
                 points: [
                   "Personalized fat, protein, and carb ratios from keto dietician",
                   "Muscle-preserving protein targets tailored to your body",
-                  "Low-carb strategies designed by keto dieticians near me for sustained energy"
+                  "Low-carb strategies designed for sustained energy"
                 ],
                 tone: "Custom macro guidance from expert keto dietician for your goals."
               },
@@ -212,7 +212,7 @@ const KetoProgram: React.FC = () => {
                 image: "/indian-keto-adaptation.jpg",
                 points: [
                   "Low-carb paneer and curry recipes from keto dietician",
-                  "Coconut-based traditional dishes adapted for keto by keto dieticians near me",
+                  "Coconut-based traditional dishes adapted for keto-friendly lifestyles",
                   "Cultural food modifications for sustainable low-carb eating"
                 ],
                 tone: "Keto dietician creates familiar Indian keto meal plans."
@@ -261,7 +261,7 @@ const KetoProgram: React.FC = () => {
           {/* FOOTER CTA */}
           <div className="mt-24 text-center">
             <p className="text-lg text-slate-600 font-medium mb-6">
-              Ready to start your keto journey with professional guidance from keto dieticians near me?
+              Ready to start your keto journey with professional guidance?
             </p>
             <Link href="/contact" className="inline-block px-10 py-5 rounded-full bg-gradient-to-r from-[#217328] to-[#217328] text-white font-black text-lg shadow-xl hover:scale-105 transition-all">
               Schedule Keto Consultation
@@ -399,7 +399,7 @@ const KetoProgram: React.FC = () => {
       <section className="py-24 px-6 bg-[#FDFEFE]">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-6">Common Questions About <span className="text-[#217328]">Keto Nutrition</span></h2>
-          <p className="text-center text-lg text-slate-600 mb-16 font-medium">Expert answers from keto dieticians specializing in ketogenic meal planning</p>
+          <p className="text-center text-lg text-slate-600 mb-16 font-medium">Expert answers from keto dietician in Gurgaon and keto dieticians near me specializing in ketogenic nutrition</p>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
               <div key={i} className="bg-white rounded-[32px] overflow-hidden border border-slate-100 shadow-sm">

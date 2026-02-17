@@ -154,7 +154,7 @@ const Home: React.FC = () => {
             </h2>
 
             <p className="text-sm sm:text-base text-slate-500 font-medium leading-relaxed max-w-sm mx-auto animate-fade-in delay-200">
-              Lifestyle-focused nutrition guidance that fits your daily routine.
+              Expert dieticians in Gurgaon bring professional nutrition care directly to your doorstep. No clinic visits. Just qualified dieticians near me, working exclusively on your health.
             </p>
           </div>
 
@@ -240,8 +240,8 @@ const Home: React.FC = () => {
             <h1 className="text-[2rem] sm:text-[2rem] md:text-[2rem] lg:text-[2rem] xl:text-[2rem] leading-[1.1] font-medium tracking-tight text-[#333333]">
               Your Personal Nutrition Plan with Expert Dieticians in Gurgaon – Designed for Life at Home
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#333333] font-normal leading-relaxed max-w-xl mb-6">
-              Lifestyle-focused nutrition guidance that fits your daily routine.
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl text-[#333333] font-normal leading-relaxed max-w-xl mb-6">
+              Expert dieticians in Gurgaon bring professional nutrition care directly to your doorstep. No clinic visits. Just qualified dieticians near me, working exclusively on your health.
             </p>
             <div className="space-y-2 xl:space-y-3 max-w-xl">
               <div className="flex items-start gap-3">
@@ -342,7 +342,7 @@ const Home: React.FC = () => {
               </h2>
 
               <p className="text-lg text-slate-600 font-medium leading-relaxed mb-10">
-                Forget traffic, waiting rooms, and taking time off work. Our certified Dieticians bring world-class nutrition guidance directly to your living room. We observe your real environment to create a plan that actually fits your life.
+                Finding dieticians near me shouldn't mean disrupting your schedule. Professional dieticians in Gurgaon visit your home or office. Zero travel. Complete privacy. Real-life nutrition guidance from qualified dieticians near me.
               </p>
 
               <div className="grid gap-4 mb-10">
@@ -937,37 +937,37 @@ const Home: React.FC = () => {
                 {
                   icon: <Utensils />,
                   title: "Weekly Meal Plans",
-                  desc: "View complete meal plans with daily ingredient lists and step-by-step cooking instructions. Know exactly what to cook, when, and how.",
+                  desc: "Your dieticians near me plan every meal in advance with ingredient lists and cooking instructions. Expert dieticians in Gurgaon eliminate confusion and repetition.",
                   badge: "Detailed recipes"
                 },
                 {
                   icon: <Smartphone />,
                   title: "Meal Tracking",
-                  desc: "Log consumed meals, track calories and macros in real-time. Scan outside meals to check nutritional values instantly.",
+                  desc: "Track what you actually eat. Professional dieticians in Gurgaon see calories, macros, and outside meals logged—giving dieticians near me the real picture.",
                   badge: "AI-powered scanning"
                 },
                 {
                   icon: <Activity />,
                   title: "Health tracking",
-                  desc: "Log wellness parameters manually or sync automatically from your tracking device. Visualize progress over time with beautiful charts.",
+                  desc: "Track wellness parameters manually or via smart device sync. Dieticians near me visualize progress. Expert dieticians in Gurgaon measure results, not guesses.",
                   badge: "Auto-sync device"
                 },
                 {
                   icon: <Calendar />,
                   title: "session Scheduling",
-                  desc: "Book your weekly Dietician calls directly through the app. Receive reminders and choose between video or phone sessions.",
+                  desc: "Every week starts with a conversation. Dieticians in Gurgaon adjust your plan only after discussing progress. Qualified dieticians near me provide real accountability.",
                   badge: "One-tap booking"
                 },
                 {
                   icon: <Users />,
                   title: "Family Management",
-                  desc: "Manage nutrition for multiple family members from one account. Get consolidated ingredient lists and coordinated meal planning.",
+                  desc: "Manage nutrition for multiple family members from one account. Dieticians near me offer consolidated planning. Professional dieticians in Gurgaon coordinate entire households.",
                   badge: "Multi-user support"
                 },
                 {
                   icon: <Bot />,
                   title: "AI Assistant",
-                  desc: "Get instant responses to basic queries 24/7. The AI handles routine questions while your Dietician focuses on personalized guidance.",
+                  desc: "Instant answers to basic queries so your dieticians in Gurgaon can focus on decisions that matter. Human-backed support from qualified dieticians near me.",
                   badge: "Always available"
                 }
               ].map((item, i) => (

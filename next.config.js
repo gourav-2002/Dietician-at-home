@@ -36,6 +36,11 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/blog/why-monthly-home-visits-make-nutrition-care-effective',
+                destination: '/blog/monthly-home-visits-nutrition-care-benefits',
+                permanent: true,
+            },
+            {
                 source: '/',
                 has: [{ type: 'query', key: 'hash', value: 'pricing' }],
                 destination: '/pricing',

@@ -26,11 +26,11 @@ const Pricing: React.FC = () => {
   const router = useRouter();
 
   const faqs = [
-    { q: "Are there any hidden costs?", a: "No. Our pricing from your dietician near me with fees is all-inclusive of monthly at-home visits, weekly sessions, personalized meal plans, and the smart tracking device (yours to keep). You only pay the listed subscription price." },
+    { q: "Are there any hidden costs?", a: "Absolutely not. Our dietician near me with fees is 100% transparent. The price you see includes monthly at-home visits, weekly consultations, personalized meal plans, and the smart monitoring device (yours to keep). There are zero hidden charges—no travel fees, no consultation surcharges, nothing. What you see is exactly what you pay for dietician cost near me." },
     { q: "What happens after the 3-month onboarding?", a: "After the initial 3-month onboarding with your dietician in Gurgaon for weight loss, you transition to a monthly subscription at ₹2,499/month for general programs or ₹3,499/month for specialized programs. You can cancel anytime with no long-term contract." },
     { q: "Do you offer a money-back guarantee?", a: <span>Yes! If you are not satisfied within the first 7 days, we offer a full refund. No questions asked. <Link href="/refund-policy" className="text-[#217328] underline">See Refund Policy</Link>.</span> },
     { q: "How do I pay?", a: "We accept all major Credit/Debit cards, UPI (GPay, PhonePe, Paytm), and Net Banking via our secure payment gateway." },
-    { q: "What's included in the tracking device?", a: "You receive a Bluetooth-enabled smart scale (worth ₹1,699) that measures weight and basic body metrics. It syncs automatically with your app. This device is yours to keep." }
+    { q: "What's included in the tracking device?", a: "You receive a Bluetooth-enabled smart bio-impedance scale (worth ₹1,699) that measures weight, body fat percentage, muscle mass, and more. It syncs automatically with your app—no manual entry needed. This device is yours to keep permanently, even if you cancel. It's included free in your dietician near me with fees with zero additional charges." }
   ];
 
   return (
@@ -55,20 +55,35 @@ const Pricing: React.FC = () => {
             <span className="text-[#217328]">Premium Care</span>
           </h1>
           <p className="text-[#6B7280] text-lg md:text-2xl max-w-3xl mx-auto font-medium leading-relaxed">
-            World-class nutrition care at rates that reflect real value from a dietician near me with fees.
-            Choose the program that fits your needs.
+            Choose the program that fits your needs with transparent dietician near me with fees
           </p>
         </div>
       </section>
 
       {/* Value Promise Section */}
-      <section className="pt-16 pb-24 px-6 max-w-7xl mx-auto -mt-24 relative z-20">
+        <section className="pt-16 pb-24 px-6 max-w-7xl mx-auto -mt-20 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: <MapPin />, title: "Monthly Home Visits", desc: "Home visits at your doorstep." },
-            { icon: <Stethoscope />, title: "Weekly sessions", desc: "Weekly check-ins every single week." },
-            { icon: <Scale />, title: "Smart Device Included", desc: "₹1,699 value - yours to keep." },
-            { icon: <Smartphone />, title: "Full App Access", desc: "Meal plans, tracking & AI support." }
+            {
+              icon: <MapPin />,
+              title: "Monthly Home Visits",
+              desc: "Professional assessments at your doorstep with dietician near me with fees included."
+            },
+            {
+              icon: <Stethoscope />,
+              title: "Weekly Consultations",
+              desc: "Professional check-ins every single week—all covered in dietician cost near me."
+            },
+            {
+              icon: <Scale />,
+              title: "Smart Device Included",
+              desc: "₹1,699 value - yours to keep. No extra charges beyond dietician near me with fees."
+            },
+            {
+              icon: <Smartphone />,
+              title: "Full App Access",
+              desc: "Meal plans, tracking & AI support—all included in your dietician cost near me."
+            }
           ].map((item, i) => (
             <div key={i} className="bg-white p-8 rounded-[32px] shadow-xl shadow-gray-200/50 border border-gray-50 flex flex-col items-center text-center group hover:-translate-y-2 transition-all">
               <div className="w-16 h-16 bg-[#E8F5E9] text-[#217328] rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#217328] group-hover:text-white transition-all">

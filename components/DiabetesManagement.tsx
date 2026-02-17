@@ -16,7 +16,11 @@ import {
   AlertCircle,
   Smartphone,
   BarChart3,
-  Scale
+  Scale,
+  Clock,
+  UserCheck,
+  RefreshCcw,
+  TrendingUp
 } from 'lucide-react';
 
 const DiabetesManagement: React.FC = () => {
@@ -70,7 +74,7 @@ const DiabetesManagement: React.FC = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#217328] to-[#43A047]"> Blood Sugar Goals with a Dietitian in Gurgaon</span>
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 max-w-xl leading-relaxed font-medium">
-              Specialized nutrition guidance to support the management of diabetes through diet and lifestyle, complementing your medical care.
+              Stabilize your blood sugar with professional guidance from a specialized dietitian Gurgaon expert. Comprehensive diabetes nutrition delivered to your doorstep with weekly support from a weight loss dietician near me who understands metabolic health.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
               <button onClick={() => router.push('/contact')} className="px-10 py-5 bg-[#217328] text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl shadow-[#217328]/20 hover:bg-[#1B5E20] hover:-translate-y-1 transition-all">
@@ -115,24 +119,23 @@ const DiabetesManagement: React.FC = () => {
       </section>
 
       {/* SECTION 3: HOW NUTRITION SUPPORT HELPS */}
-      <section className="py-24 px-6 bg-slate-50">
+        <section className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black">How Nutrition <span className="text-[#217328]">Helps</span></h2>
-            <p className="text-slate-500 font-medium max-w-2xl mx-auto text-xl leading-8">
-              Strategic eating habits play a crucial role in managing blood sugar levels and overall metabolic health.
-            </p>
+          <div className="text-center mb-20 space-y-4">
+            <h2 className="text-3xl md:text-5xl font-black">Why Dietitian Gurgaon Experts Say Nutrition is Your <span className="text-[#217328]">Strongest Tool</span></h2>
+            <p className="text-slate-500 font-medium max-w-6xl mx-auto text-xl leading-8">Strategic eating with a weight loss dietician near me doesn't just manage symptoms—it supports your metabolic health and diabetes control in Gurgaon.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: <Droplets />, title: "Glycemic Stability", desc: "Understanding how different foods affect your blood sugar." },
-              { icon: <Zap />, title: "Energy Management", desc: "Balanced meals to prevent energy crashes." },
-              { icon: <Target />, title: "Weight Support", desc: "Nutritional strategies to maintain a healthy weight." },
-              { icon: <Heart />, title: "Heart Health", desc: "Focus on fiber and healthy fats to support cardiovascular health." },
-              { icon: <ShieldCheck />, title: "Pattern Recognition", desc: "Learning how your body responds to detailed food logs." }
+              { icon: <Droplets />, title: "Glycemic Stability", desc: "Dietitian Gurgaon coordinates carb distribution to help manage blood sugar variability and crashes." },
+              { icon: <Zap />, title: "Insulin Efficiency", desc: "Weight loss dietician near me optimizes weight and macros to support how your body uses insulin." },
+              { icon: <Target />, title: "A1c Goal Achievement", desc: "Dietitian Gurgaon uses data-driven strategies to support lower long-term blood sugar averages." },
+              { icon: <Heart />, title: "Vascular Health Protection", desc: "Weight loss dietician near me designs nutrition to support your heart, kidneys, and nervous system." },
+              { icon: <Clock />, title: "Meal-Medication Timing", desc: "Dietitian Gurgaon aligns your nutritional intake with your diabetes medication schedule." },
+              { icon: <ShieldCheck />, title: "Complication Prevention", desc: "Weight loss dietician near me focuses on long-term metabolic health for overall diabetes wellness." }
             ].map((item, i) => (
-              <div key={i} className="p-10 rounded-[40px] bg-white border border-slate-100 hover:shadow-xl transition-all group">
-                <div className="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center mb-6 text-[#217328] group-hover:bg-[#217328] group-hover:text-white transition-colors shadow-sm">
+              <div key={i} className="p-10 rounded-[40px] bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-xl transition-all group">
+                <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mb-6 text-[#217328] group-hover:bg-[#217328] group-hover:text-white transition-colors shadow-sm">
                   {React.cloneElement(item.icon as React.ReactElement, { size: 28 })}
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
@@ -227,7 +230,7 @@ const DiabetesManagement: React.FC = () => {
         </div>
       </section>
       {/* SERVICE SCOPE & WHAT WE PROVIDE */}
-      <section className="py-20 px-6 bg-white">
+      {/* <section className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-black text-center mb-6">
             Service Scope & <span className="text-[#217328]">What We Provide</span>
@@ -269,6 +272,69 @@ const DiabetesManagement: React.FC = () => {
             ))}
           </div>
         </div>
+      </section> */}
+
+       <section className="py-32 px-6 bg-gradient-to-b from-[#1B5E20] to-[#0F3D1E] text-white">
+        <div className="max-w-6xl mx-auto">
+
+          {/* Heading */}
+          <div className="text-center max-w-6xl mx-auto mb-20">
+            <h2 className="text-4xl md:text-5xl font-black leading-tight">
+              Your Diabetes Diet <span className="text-[#A5D6A7]">Evolves</span> Every Week with Dietitian Gurgaon
+            </h2>
+            <p className="mt-6 text-lg text-[#E8F5E9]">
+              This isn't a one-time meal chart from any weight loss dietician near me. It's a living diabetes management system that adapts to your blood sugar data, your body's response, and your real life—every single week across Gurgaon.
+            </p>
+          </div>
+
+          {/* Flow Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+
+            {[
+              {
+                title: "You Track Real Life",
+                desc: "Meals, blood sugar readings, outside food—nothing hidden from dietitian Gurgaon.",
+                icon: <Smartphone />
+              },
+              {
+                title: "Dietitian Reviews Data",
+                desc: "A qualified weight loss dietician near me studies your actual diabetes data, not assumptions.",
+                icon: <UserCheck />
+              },
+              {
+                title: "Plan Is Rebuilt Weekly",
+                desc: "Calories, carbs, macros & structure adjusted by dietitian Gurgaon for the next week.",
+                icon: <RefreshCcw />
+              },
+              {
+                title: "Results Improve",
+                desc: "Better blood sugar control, A1c reduction, energy & visible diabetes progress.",
+                icon: <TrendingUp />
+              }
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="bg-[#124B2A] border border-white/10 rounded-[32px] p-8 shadow-2xl hover:scale-[1.03] transition-all"
+              >
+                <div className="w-14 h-14 mb-6 flex items-center justify-center rounded-2xl bg-[#E8F5E9] text-[#1B5E20]">
+                  {React.cloneElement(item.icon as React.ReactElement, { size: 26 })}
+                </div>
+                <h4 className="text-xl font-bold mb-3">{item.title}</h4>
+                <p className="text-sm text-[#CDEFD8] leading-6">
+                  {item.desc}
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Bottom Proof Line */}
+          <div className="mt-20 text-center">
+            <p className="italic text-lg text-[#E8F5E9] max-w-3xl mx-auto">
+              "No guessing. No generic diabetes plans. Just a weekly nutrition system from weight loss dietician near me that learns from your blood sugar response and improves with time."
+            </p>
+          </div>
+
+        </div>
       </section>
 
 
@@ -306,10 +372,10 @@ const DiabetesManagement: React.FC = () => {
 
       {/* Final CTA */}
       <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
-        <div className="max-w-4xl mx-auto px-6 text-center relative z-10 space-y-12">
-          <h2 className="text-4xl md:text-6xl font-black leading-tight tracking-tighter">Support Your Health <br /> <span className="text-[#217328]">Journey.</span></h2>
-          <p className="text-xl md:text-2xl text-slate-400 font-medium max-w-2xl mx-auto">
-            Professional nutrition guidance to help you manage your lifestyle.
+        <div className="max-w-5xl mx-auto px-6 text-center relative z-10 space-y-12">
+          <h2 className="text-4xl md:text-6xl font-black leading-tight tracking-tighter">Thrive with Diabetes, Don't Just <br /> <span className="text-[#217328]">Manage It</span></h2>
+          <p className="text-xl md:text-2xl text-slate-400 font-medium max-w-5xl mx-auto">
+            Work with expert dietitian Gurgaon for precision diabetes care. Join hundreds who have stabilized blood sugar through our doorstep program with weight loss dieticians near me across DLF Phase, Cyber City, Golf Course Road, and all of Gurgaon.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <button onClick={() => router.push('/contact')} className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-bold text-xl shadow-2xl shadow-[#217328]/20 hover:scale-105 transition-all">

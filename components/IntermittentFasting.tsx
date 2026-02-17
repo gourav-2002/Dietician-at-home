@@ -98,7 +98,7 @@ const IntermittentFasting: React.FC = () => {
                             </h1>
 
                             <p className="text-lg text-[#6C757D] max-w-xl leading-relaxed">
-                                Navigate intermittent fasting safely with expert guidance from the best dietician specializing in time-restricted eating. Professional fasting support delivered through weekly consultations with dieticians who understand meal timing, hunger management, and sustainable eating patterns across DLF Phase, Cyber City, and Golf Course Road.
+                                Master intermittent fasting safely with expert guidance from the top 10 dietician in Gurgaon specializing in time-restricted eating. Professional IF protocols delivered to your doorstep with weekly support from experienced nutrition experts who understand fasting metabolism, hunger management, and sustainable eating windows across Gurgaon.
                             </p>
 
                             <div className="flex flex-col sm:flex-row gap-4">
@@ -168,9 +168,9 @@ const IntermittentFasting: React.FC = () => {
             <section className="py-32 px-6 bg-slate-900 text-white rounded-[100px] mx-4 my-20">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-24 space-y-4">
-                        <h2 className="text-4xl md:text-6xl font-extrabold tracking-tight">Why Choose  <span className="text-[#217328]">Top 10 Dietician in Gurgaon</span> for Intermittent Fasting</h2>
-                        <p className="text-slate-400 max-w-2xl mx-auto text-xl leading-8">
-                            Professional dieticians deliver evidence-based time-restricted eating guidance to support your weight management, wellness, and sustainable eating pattern goals across Gurgaon. Which provides personalized support for safe fasting practices.
+                        <h2 className="text-4xl md:text-6xl font-extrabold tracking-tight">Why Choose  <span className="text-[#217328]">Dietician in Gurgaon</span> for Intermittent Fasting</h2>
+                        <p className="text-slate-400 max-w-3xl mx-auto text-xl leading-8">
+                            Professional dietician nutritionist near me deliver evidence-based intermittent fasting protocols for fat loss, metabolic health, cellular repair, and sustainable weight management across Gurgaon. Top 10 dietician in Gurgaon ensure safe fasting without muscle loss or energy crashes.
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
@@ -201,7 +201,7 @@ const IntermittentFasting: React.FC = () => {
                             <span className="text-[#217328]">Your Fasting Journey</span>
                         </h2>
                         <p className="mt-6 text-lg text-slate-600 font-medium">
-                            Intermittent fasting is not one-size-fits-all. Professional dieticians create personalized time-restricted eating approaches that match your lifestyle, health goals, and daily schedule—helping you establish sustainable eating patterns across DLF Phase, Cyber City, and Golf Course Road.
+                            Intermittent fasting isn’t one-size-fits-all. Professional dietician nutritionist near me design structured IF protocols tailored to your lifestyle, health goals, and eating preferences—whether it’s 16:8, 18:6, or alternate-day fasting—ensuring safe, sustainable, and long-term results.
                         </p>
                     </div>
 
@@ -218,7 +218,7 @@ const IntermittentFasting: React.FC = () => {
                                     "Balanced meal planning during eating hours with macro guidance",
                                     "Gradual transition support from dieticians"
                                 ],
-                                tone: "Flexible fasting schedules tailored by dieticians."
+                                tone: "The most sustainable and easy-to-follow fasting protocol designed by dietician nutritionist near me."
                             },
                             {
                                 title: "Meal Timing Strategy",
@@ -372,7 +372,7 @@ const IntermittentFasting: React.FC = () => {
                             </h3>
 
                             <p className="mt-6 text-lg text-slate-600 font-medium max-w-xl">
-                                Many people attempting intermittent fasting alone face challenges with hunger management, meal planning, or sustaining the approach long-term. The top 10 dieticians in Gurgaon helps you navigate these challenges through personalized eating windows, nutrient-focused meal guidance, and consistent weekly support from dieticians.
+                                Most people attempting intermittent fasting alone quit within 2 weeks due to extreme hunger, muscle loss, or energy crashes. The top 10 dietician in Gurgaon prevents these failures through structured fasting protocols, hunger management strategies, and continuous metabolic support from dietician nutritionist near me.
                             </p>
                         </div>
 

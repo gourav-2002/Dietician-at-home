@@ -120,6 +120,17 @@ const Blog: React.FC = () => {
       readingTime: '12 min read',
       image: '/delhi-ncr-food-culture-diet-goals-balance.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 10,
+      slug: 'pcod-weight-gain-dieticians-delhi',
+      category: 'PCOD Care',
+      date: 'Feb 17, 2026',
+      title: 'PCOD and Weight Gain: How Dieticians in Delhi Can Help You Break the Cycle',
+      excerpt: 'Struggling with PCOD weight gain? Expert dieticians in Delhi explain why crash diets fail and what actually works. Discover a science-backed, sustainable approach.',
+      readingTime: '11 min read',
+      image: '/pcod-weight-gain-dieticians-delhi.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 

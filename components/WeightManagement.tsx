@@ -20,7 +20,8 @@ import {
   Utensils,
   Trophy,
   History,
-  AlertCircle
+  AlertCircle,
+  Clock
 } from 'lucide-react';
 
 const WeightManagement: React.FC = () => {
@@ -143,22 +144,44 @@ const WeightManagement: React.FC = () => {
       </section>
 
       {/* SECTION 3: HOW NUTRITION SUPPORT HELPS */}
-      <section className="py-24 px-6 bg-slate-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-4xl font-black">How Nutrition Support <span className="text-[#217328]">Helps</span></h2>
-            <p className="text-slate-500 font-medium max-w-2xl mx-auto text-lg leading-8">
-              We focus on meal planning, nutritional balance, and habit consistency.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {philosophy.map((item, i) => (
-              <div key={i} className="p-10 rounded-[40px] bg-white border border-slate-100 hover:shadow-xl transition-all group">
-                <div className="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center mb-6 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-colors shadow-sm">
-                  {React.cloneElement(item.icon as React.ReactElement, { size: 28 })}
+       <section className="py-24 px-6 bg-white">
+        <div className="max-w-[1200px] mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
+            Why Choose the <span className="text-[#217328]">Best Dietician in Gurgaon</span> for Weight Loss?
+          </h2>
+          <p className="text-lg md:text-xl text-[#6C757D] max-w-4xl mx-auto leading-relaxed mb-16">
+            Finding the right dietician near me for weight loss can transform your health journey. Our expert nutritionists in Gurgaon deliver science-backed weight management programs with weekly accountability, doorstep assessments, and personalized meal plans tailored to your lifestyle.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+            {[
+              {
+                title: "Metabolic Preservation",
+                icon: <Flame size={32} />,
+                desc: "The best dietician in Gurgaon for weight loss doesn't believe in starvation. We optimize your metabolism through nutrient-dense eating strategies that keep you energized while losing fat sustainably."
+              },
+              {
+                title: "Muscle Protection",
+                icon: <Dumbbell size={32} />,
+                desc: "Our dieticians near me for weight loss use targeted protein strategies ensuring you lose fat, not the muscle that burns calories and maintains your strength throughout your transformation."
+              },
+              {
+                title: "Sustainable Lifestyle Habits",
+                icon: <Clock size={32} />,
+                desc: "As the best dietician in Gurgaon for weight loss, we build eating patterns you don't need breaks from. Flexibility and cultural food integration ensure long-term success across Gurugram."
+              },
+              {
+                title: "Weekly Professional Accountability",
+                icon: <Users size={32} />,
+                desc: "Work directly with expert dieticians near me for weight loss through weekly consultations. Navigate plateaus, social challenges, and life events with continuous professional support in Gurgaon."
+              }
+            ].map((card, idx) => (
+              <div key={idx} className="p-8 rounded-3xl bg-[#F8F9FA] hover:bg-[#E8F5E9] transition-all duration-300 group text-left">
+                <div className="w-16 h-16 bg-[#E8F5E9] group-hover:bg-white text-[#217328] rounded-2xl flex items-center justify-center mb-6 transition-colors">
+                  {card.icon}
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                <p className="text-base leading-6 text-slate-500 leading-relaxed font-medium">{item.desc}</p>
+                <h3 className="text-xl font-bold mb-4">{card.title}</h3>
+                <p className="text-lg text-[#6C757D] leading-relaxed">{card.desc}</p>
               </div>
             ))}
           </div>
@@ -227,7 +250,8 @@ const WeightManagement: React.FC = () => {
       <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-black mb-8">Sample Meal Structure</h2>
+            <h2 className="text-3xl font-black mb-8"> Specialized Programs from Gurgaon's Top Dieticians</h2>
+            <p className="text-lg text-[#6C757D] max-w-3xl mx-auto mb-12 leading-relaxed">Whether you need to lose weight or gain healthy muscle mass, our dieticians near me for weight loss create personalized pathways for sustainable transformation in Gurgaon.</p>
             <div className="inline-flex p-2 bg-white rounded-2xl gap-2 shadow-sm">
               <button
                 onClick={() => setActiveGoal('loss')}
@@ -356,10 +380,10 @@ const WeightManagement: React.FC = () => {
 
       {/* SECTION 6: CLEAR CTA */}
       <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
-        <div className="max-w-4xl mx-auto px-6 text-center relative z-10 space-y-8">
-          <h2 className="text-3xl md:text-5xl font-black">Ready to Structure Your Nutrition?</h2>
-          <p className="text-xl text-slate-400 font-medium max-w-2xl mx-auto">
-            Explore if our weight management support program is right for you.
+        <div className="max-w-5xl mx-auto px-6 text-center relative z-10 space-y-8">
+          <h2 className="text-3xl md:text-5xl font-black">Book the Best Dietician in Gurgaon for Weight Loss</h2>
+          <p className="text-xl text-slate-400 font-medium max-w-4xl mx-auto">
+            Start your transformation journey today with expert dieticians near me for weight loss. Experience professional weight management with doorstep assessments, weekly support, and personalized nutrition plans across DLF, Cyber City, Golf Course Road, and all of Gurgaon. No guesswork. No judgment. Just sustainable results.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <button

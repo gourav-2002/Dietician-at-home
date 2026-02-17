@@ -13,7 +13,8 @@ import {
   RotateCcw,
   Activity,
   Zap,
-  Sun
+  Sun,
+  Sparkles
 } from 'lucide-react';
 
 const PcodCare: React.FC = () => {
@@ -21,10 +22,10 @@ const PcodCare: React.FC = () => {
   const router = useRouter();
 
   const symptomMap = [
-    { symptom: "Cycle Support", solution: "Insulin-sensitive meal timing to support natural rhythms.", icon: <RotateCcw className="text-purple-400" /> },
-    { symptom: "Weight Management", solution: "Low-glycemic strategies to support metabolic health.", icon: <Activity className="text-teal-400" /> },
-    { symptom: "Skin Health", solution: "Nutrient-rich foods to support skin vitality.", icon: <Zap className="text-amber-400" /> },
-    { symptom: "Energy Levels", solution: "Balanced macronutrients to prevent energy crashes.", icon: <Sun className="text-orange-400" /> }
+    { symptom: "Irregular Periods", solution: "The best dietician in Gurgaon uses insulin-sensitive meal timing strategies to support hormonal balance and cycle regularity.", icon: <RotateCcw className="text-purple-400" /> },
+    { symptom: "Stubborn Weight Gain", solution: "Good dieticians near me implement low-glycemic nutrition protocols to bypass insulin resistance and support healthy weight management.", icon: <Activity className="text-teal-400" /> },
+    { symptom: "Skin & Hair Issues", solution: "Expert dieticians in Gurgaon provide androgen-reducing nutrition and anti-inflammatory support for clearer skin and healthier hair.", icon: <Sparkles className="text-rose-400" /> },
+    { symptom: "Intense Sugar Cravings", solution: "The best dietician near me uses protein-paired meal planning to stabilize blood sugar peaks and reduce cravings naturally.", icon: <Zap className="text-amber-400" /> }
   ];
 
   return (
@@ -84,6 +85,79 @@ const PcodCare: React.FC = () => {
         </div>
       </section>
 
+       {/* PCOD vs PCOS Education Section */}
+      <section className="py-24 px-6 bg-white border-b border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-20">
+            <span className="px-5 py-2 bg-[#E8F5E9] text-[#217328] rounded-full text-[10px] font-black uppercase tracking-[0.3em] mb-6 inline-block">Expert Education</span>
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-6">PCOD vs. PCOS: <span className="text-[#217328]">Understanding the Difference</span></h2>
+            <p className="text-slate-500 font-medium text-xl max-w-5xl mx-auto">The best dietician in Gurgaon personalizes your nutrition plan based on your specific diagnosis. While often used interchangeably, PCOD and PCOS require different nutritional approaches for optimal hormonal health.</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* PCOD Card */}
+            <div className="bg-slate-50 rounded-[40px] p-10 border border-slate-100 relative overflow-hidden group hover:shadow-xl transition-all">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#217328]/10 rounded-bl-[100px] opacity-50 transition-transform group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <h3 className="text-3xl font-black text-slate-900 mb-2">PCOD</h3>
+                <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6">Polycystic Ovarian Disease</p>
+
+                <div className="space-y-4 mb-8">
+                  <p className="text-slate-600 font-medium leading-relaxed">
+                    A condition where ovaries release immature eggs, leading to hormonal imbalances and swollen ovaries. Good dieticians near me can help manage PCOD through lifestyle modifications.
+                  </p>
+                  <ul className="space-y-3">
+                    <li className="flex gap-3 text-sm font-bold text-slate-700">
+                      <CheckCircle2 size={18} className="text-[#217328] shrink-0" /> More common (approx 1 in 10 women)
+                    </li>
+                    <li className="flex gap-3 text-sm font-bold text-slate-700">
+                      <CheckCircle2 size={18} className="text-[#217328] shrink-0" /> Primary focus: Lifestyle & Nutrition
+                    </li>
+                    <li className="flex gap-3 text-sm font-bold text-slate-700">
+                      <CheckCircle2 size={18} className="text-[#217328] shrink-0" /> Often manageable with good dietary guidance
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                  <p className="text-xs font-black uppercase text-[#217328] mb-2">Best Dietician in Gurgaon's Strategy</p>
+                  <p className="text-sm font-medium text-slate-600">Whole-food nutrition, reduced processed sugar intake, consistent sleep patterns, and anti-inflammatory foods to support natural ovulation and hormonal balance.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* PCOS Card */}
+            <div className="bg-slate-50 rounded-[40px] p-10 border border-slate-100 relative overflow-hidden group hover:shadow-xl transition-all">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#E8F5E9] rounded-bl-[100px] opacity-50 transition-transform group-hover:scale-110"></div>
+              <div className="relative z-10">
+                <h3 className="text-3xl font-black text-slate-900 mb-2">PCOS</h3>
+                <p className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-6">Polycystic Ovary Syndrome</p>
+
+                <div className="space-y-4 mb-8">
+                  <p className="text-slate-600 font-medium leading-relaxed">
+                    A serious metabolic disorder causing severe hormonal imbalance with elevated androgens, affecting metabolism, fertility, and long-term health. Requires specialized care from good dieticians near me.
+                  </p>
+                  <ul className="space-y-3">
+                    <li className="flex gap-3 text-sm font-bold text-slate-700">
+                      <CheckCircle2 size={18} className="text-[#217328] shrink-0" /> Serious metabolic condition
+                    </li>
+                    <li className="flex gap-3 text-sm font-bold text-slate-700">
+                      <CheckCircle2 size={18} className="text-[#217328] shrink-0" /> Strongly linked to Insulin Resistance
+                    </li>
+                    <li className="flex gap-3 text-sm font-bold text-slate-700">
+                      <CheckCircle2 size={18} className="text-[#217328] shrink-0" /> Requires specialized nutritional care
+                    </li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                  <p className="text-xs font-black uppercase text-[#217328] mb-2">Best Dietician in Gurgaon's Strategy</p>
+                  <p className="text-sm font-medium text-slate-600">Advanced insulin sensitivity protocols, gut microbiome support, anti-inflammatory nutrition, and strategic macro timing to manage severe hormonal imbalance effectively.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SECTION 2: WHO THIS IS FOR */}
       <section className="py-20 px-6 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
@@ -108,17 +182,16 @@ const PcodCare: React.FC = () => {
       </section>
 
       {/* SECTION 3: HOW NUTRITION SUPPORT HELPS */}
-      <section className="py-24 px-6 bg-slate-50">
+        <section className="py-24 px-6 bg-slate-50">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-4xl font-black">How Nutrition <span className="text-[#217328]">Helps</span></h2>
-            <p className="text-slate-500 font-medium max-w-2xl mx-auto text-lg leading-8">
-              Our approach focuses on stabilizing blood sugar, managing inflammation, and supporting gut health through food choices.
-            </p>
+          <div className="text-center mb-20 space-y-4">
+            <span className="px-5 py-2 bg-[#e8f5e9] text-[#217328] rounded-full text-[10px] font-black uppercase tracking-[0.3em] border border-[#E8F5E9] mb-6 inline-block">Science-Backed Solutions</span>
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900">How the Best Dietician in Gurgaon <span className="text-[#217328]">Manages PCOS Symptoms</span></h2>
+            <p className="text-lg text-slate-600 max-w-5xl mx-auto font-medium">Good dieticians near me use targeted nutritional strategies to address the root causes of your PCOD/PCOS symptoms across Gurgaon.</p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {symptomMap.map((s, i) => (
-              <div key={i} className="bg-white p-10 rounded-[40px] shadow-sm hover:shadow-lg transition-all border border-slate-100 text-center flex flex-col items-center">
+              <div key={i} className="bg-white p-10 rounded-[48px] shadow-sm hover:shadow-2xl transition-all border border-[#E8F5E9] text-center flex flex-col items-center">
                 <div className="w-16 h-16 bg-slate-50 rounded-3xl flex items-center justify-center mb-6">
                   {React.cloneElement(s.icon as React.ReactElement, { size: 32 })}
                 </div>
@@ -269,8 +342,8 @@ const PcodCare: React.FC = () => {
       <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
         <div className="max-w-5xl mx-auto px-6 text-center relative z-10 space-y-12">
           <h2 className="text-4xl md:text-6xl font-black leading-tight tracking-tighter">Support Your <br /> <span className="text-[#217328]">Hormonal Health.</span></h2>
-          <p className="text-xl md:text-2xl text-slate-400 font-medium max-w-2xl mx-auto leading-snug">
-            Expert nutrition guidance delivered to your home.
+          <p className="text-xl md:text-2xl text-slate-400 font-medium max-w-4xl mx-auto leading-snug">
+            Book the best dietician in Gurgaon for specialized PCOD/PCOS care. Work with good dieticians near me who deliver expert nutrition guidance to your doorstep across DLF Phase, Cyber City, Golf Course Road, and all of Gurgaon. You deserve hormonal wellness—not just symptom management.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6 pt-4">
             <button onClick={() => router.push('/contact')} className="px-12 py-6 bg-[#217328] text-white rounded-[32px] font-bold text-xl shadow-2xl shadow-[#217328]/20 hover:scale-105 transition-all">

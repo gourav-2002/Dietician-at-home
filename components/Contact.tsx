@@ -160,14 +160,14 @@ const Contact: React.FC = () => {
           <h1 className="text-5xl md:text-6xl font-extrabold text-white mb-6">
             Contact <span className="text-[#217328]">Us</span>
           </h1>
-          <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto">
-            Let's Plan Your Personalized Health Journey. Reach out to our professional team of dieticians in Gurgaon today for nutrition care at your doorstep.
+          <p className="text-gray-300 text-lg md:text-xl max-w-4xl mx-auto">
+            Let's plan your perfect health journey. Reach out to our team of top dieticians in Gurgaon for professional, personalized nutrition care delivered right to your doorstep.
           </p>
         </div>
       </section>
 
       {/* Contact Cards */}
-      <section className="max-w-7xl mx-auto px-6 -mt-16 relative z-20">
+      <section className="max-w-7xl mx-auto px-6 -mt-14 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {contactCards.map((card, idx) => (
             <div key={idx} className="bg-white p-8 rounded-3xl shadow-xl border border-gray-50 flex flex-col items-center text-center group hover:-translate-y-2 transition-transform duration-300">

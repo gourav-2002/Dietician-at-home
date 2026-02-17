@@ -152,8 +152,8 @@ const HowItWorks: React.FC = () => {
             Structured. Simple. <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#217328] to-[#1B5E20]">Professional Dietician in Gurgaon</span>
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium mb-12">
-            No guesswork. No confusion. Just a clear, 10-step path from your first call to a healthier life—delivered entirely to your doorstep by your trusted dietician in Gurgaon.
+          <p className="text-xl md:text-2xl text-slate-600 max-w-4xl mx-auto leading-relaxed font-medium mb-12">
+            Rebuild your strength with compassionate, evidence-based nutrition from expert nutritionists in Gurgaon specializing in structured care. Professional doorstep service by the best dietitian near me designed with precision and accountability.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <button onClick={() => router.push('/contact')} className="px-10 py-5 bg-[#217328] text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl shadow-[#217328]/20 hover:bg-[#1B5E20] hover:-translate-y-1 transition-all">
@@ -323,30 +323,31 @@ const HowItWorks: React.FC = () => {
       </section>
 
       {/* Team Involved */}
-      <section className="py-32 px-6 bg-white">
+        <section className="py-32 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20 space-y-4">
-            <h2 className="text-4xl font-black">Meet Your <span className="text-[#217328]">Care Team</span></h2>
-            <p className="text-slate-500 font-medium max-w-2xl mx-auto">Multiple experts coordinate to ensure your plan is accurate, delivered, and effective.</p>
+            <h2 className="text-4xl font-black">Meet Your <span className="text-[#217328]">Care Team of Nutritionists in Gurgaon</span></h2>
+            <p className="text-slate-500 font-medium max-w-2xl mx-auto">
+              Multiple experts including the best dietitian near me coordinate to ensure your plan is accurate, delivered, and effective.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Qualified Dietician",
+                title: "Clinical Dietitian from Nutritionists in Gurgaon",
                 role: "Strategy & Support",
-                desc: "Your weekly nutrition expert for sessions and plan curation.",
+                desc: "Your weekly nutrition expert and best dietitian near me for consultations and plan curation.",
                 icon: <Stethoscope size={32} />
               },
               {
-                title: "Field Representative",
+                title: "Field Representative (Nutritionists in Gurgaon Team)",
                 role: "At-Location Care",
-                desc: "The professional visiting your home for detailed biometric visits.",
+                desc: "The professional from our nutritionists in Gurgaon visiting your home for detailed biometric assessments as the best dietitian near me.",
                 icon: <MapPin size={32} />
               },
               {
-                title: "Support Tech (AI)",
+                title: "Support Tech (AI) + Best Dietitian Near Me",
                 role: "24/7 Companion",
-                desc: "Our app and AI guide for instant meal logging and quick query support.",
+                desc: "Our app and AI guide backed by nutritionists in Gurgaon for instant meal logging and quick query support from the best dietitian near me.",
                 icon: <Smartphone size={32} />
               }
             ].map((member, i) => (
@@ -364,12 +365,16 @@ const HowItWorks: React.FC = () => {
       </section>
 
       {/* Pricing Teaser */}
-      <section className="py-32 px-6 bg-[#FCFAFF]">
+      
+      
+       <section className="py-32 px-6 bg-[#FCFAFF]">
         <div className="max-w-5xl mx-auto bg-white rounded-[64px] p-12 md:p-20 shadow-xl border border-[#E8F5E9] text-center relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#E8F5E9] rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-          <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8">Simple, All-Inclusive Investment</h2>
-          <p className="text-xl text-slate-500 font-medium max-w-2xl mx-auto mb-16">No travel costs, no hidden device fees. Your 3-month onboarding includes everything needed for success.</p>
+          <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-8">Simple, All-Inclusive Investment with Nutritionists in Gurgaon</h2>
+          <p className="text-xl text-slate-500 font-medium max-w-2xl mx-auto mb-16">
+            No travel costs, no hidden device fees with the best dietitian near me. Your 3-month onboarding with expert nutritionists in Gurgaon includes everything needed for success.
 
+          </p>
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="p-10 bg-slate-50 rounded-[48px] border border-slate-100 group hover:border-[#217328] transition-colors">
               <p className="text-[10px] font-black uppercase text-slate-400 mb-2">Flagship Programs</p>
@@ -383,8 +388,8 @@ const HowItWorks: React.FC = () => {
             </div>
           </div>
 
-          <button onClick={() => router.push('/pricing')} className="inline-flex items-center gap-3 text-[#217328] font-black text-xs uppercase tracking-widest hover:gap-5 transition-all">
-            View Detailed Pricing Breakdown <ArrowRight size={14} />
+          <button onClick={() => window.location.hash = 'pricing'} className="inline-flex items-center gap-3 text-[#217328] font-black text-xs uppercase tracking-widest hover:gap-5 transition-all">
+            View Detailed Pricing from Nutritionists in Gurgaon <ArrowRight size={14} />
           </button>
         </div>
       </section>

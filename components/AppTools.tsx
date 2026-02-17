@@ -105,7 +105,7 @@ const AppTools: React.FC = () => {
             Your Nutrition <span className="text-[#217328]">Control Centre</span>
           </h1>
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto font-medium">
-            Powerful technology. Simple to use. Everything in one place.
+            Connect with a professional dietician near by me through powerful technology. Simple to use. Everything in one place.
           </p>
         </div>
       </section>
@@ -150,7 +150,7 @@ const AppTools: React.FC = () => {
               </div>
             </div>
           </div>
-          <p className="text-xl font-bold text-[#217328] mt-20">But here's what matters most: technology enables the experience. Humans deliver the care.</p>
+          <p className="text-xl font-bold text-[#217328] mt-20">But here's what matters most: technology enables the experience. Your dedicated online dietician near me delivers the personalized care.</p>
         </div>
       </section>
 
@@ -292,7 +292,7 @@ const AppTools: React.FC = () => {
           </div>
           <div className="lg:w-1/2 w-full space-y-10">
             <div className="space-y-4">
-              <h2 className="text-4xl md:text-5xl font-black text-[#1F2937]">Your Personal Wellness Tracking Device</h2>
+              <h2 className="text-4xl md:text-5xl font-black text-[#1F2937]">The Monitoring Device – Track Progress for Your Online Dietician Near Me</h2>
               <p className="text-xl text-gray-500">A personal wellness tracking device included to support consistent and accurate self-tracking.</p>
             </div>
 
@@ -337,17 +337,17 @@ const AppTools: React.FC = () => {
               {
                 icon: <Lock size={48} className="text-[#217328]" />,
                 title: "End-to-End Encryption",
-                desc: "All your health data is encrypted during transmission and storage. Industry-standard AES-256 encryption ensures your information remains secure and protected."
+                desc: "All communication with your dietician near by me is encrypted during transmission and storage. Industry-standard AES-256 encryption ensures your conversations with your online dietician near me and all health information remain completely secure and confidential."
               },
               {
                 icon: <Users size={48} className="text-[#217328]" />,
                 title: "Access Control",
-                desc: "Only your assigned dietician and you can access your health data. No third-party sharing. No data selling. Ever."
+                desc: "Only your assigned dietician near by me and you can access your health data. Your online dietician near me maintains complete confidentiality. No third-party sharing. No data selling. Ever."
               },
               {
                 icon: <ShieldCheck size={48} className="text-[#217328]" />,
                 title: "Privacy & Security First",
-                desc: "Your health information is protected with enterprise-grade security measures. Secure cloud storage, regular backups, and strict data handling protocols keep your information safe."
+                desc: "Your health information shared with your online dietician near me is protected with enterprise-grade security measures. Secure cloud storage, regular backups, and strict data handling protocols keep every interaction with your dietician near by me completely private and safe."
               }
             ].map((item, i) => (
               <div key={i} className="bg-white p-12 rounded-[40px] shadow-xl text-center space-y-6 hover:-translate-y-2 transition-transform duration-300">
@@ -357,6 +357,7 @@ const AppTools: React.FC = () => {
               </div>
             ))}
           </div>
+
           <p className="text-center italic text-xl text-gray-400 mt-20">"Your trust is sacred. We treat your data with the same care we treat your health."</p>
         </div>
       </section>

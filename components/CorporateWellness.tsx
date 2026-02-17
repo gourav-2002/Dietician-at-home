@@ -16,11 +16,11 @@ const CorporateWellness: React.FC = () => {
     { icon: "❤️", label: "Higher satisfaction", desc: "A top-tier wellness benefit that improves employee morale and overall engagement." }
   ];
 
-  const benefits = [
-    { title: "Enhanced Productivity", icon: "💼", desc: "Healthy employees are focused employees. Proper nutrition improves energy levels and enhances overall work performance." },
-    { title: "Reduced Health Costs", icon: "🏥", desc: "Proactive nutrition support may help reduce medical claims and insurance premiums over time." },
-    { title: "Higher Retention", icon: "😊", desc: "Show your team you care. Thoughtful wellness benefits help attract, motivate, and retain top talent." },
-    { title: "Stronger Culture", icon: "🌟", desc: "Build a culture of health and wellbeing. Create a positive work environment." }
+   const benefits = [
+    { title: "Enhanced Team Performance", icon: "💼", desc: "Proper nutrition guidance from an experienced dietician translates directly to workplace excellence. Employees receiving support from the best dietician for weight loss near me maintain sustained energy, superior concentration, and peak cognitive performance. Smart nutrition choices mean your team operates at maximum capacity throughout every business quarter." },
+    { title: "Lower Long-Term Healthcare Costs", icon: "🏥", desc: "Preventive care delivered by a qualified dietician in Gurugram reduces expensive medical interventions, insurance claims, and chronic disease management costs. Businesses partnering with the best dietician for weight loss near me invest in prevention rather than paying for treatments, creating substantial financial advantages over time." },
+    { title: "Attract and Retain Top Talent", icon: "😊", desc: "Stand out in competitive hiring markets by offering access to a professional dietician in Gurugram as part of your benefits package. Today's skilled professionals actively seek employers providing the best dietician for weight loss near me and comprehensive wellness support, making this benefit a powerful recruitment and retention tool." },
+    { title: "Build Stronger Workplace Culture", icon: "🌟", desc: "Create an environment where health matters by bringing our dietician in Gurugram directly into your organization. Teams thrive when leadership provides access to the best dietician for weight loss near me, fostering a culture of mutual support, wellness consciousness, and collective success." }
   ];
 
   const dashboardFeatures = [
@@ -97,7 +97,7 @@ const CorporateWellness: React.FC = () => {
       {/* Business Case Grid */}
       <section className="bg-[#FAF9F6] py-24 px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {benefits.map((benefit, i) => (
               <div key={i} className="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all">
                 <div className="text-3xl mb-4">{benefit.icon}</div>
@@ -207,20 +207,81 @@ const CorporateWellness: React.FC = () => {
         </div>
       </section>
 
-      {/* Step Process */}
-      <section className="bg-[#FAF9F6] py-24 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-extrabold text-center mb-16">How It Works for Corporates</h2>
-          <div className="flex flex-col md:flex-row justify-between gap-8 relative">
-            <div className="absolute top-1/2 left-0 w-full h-px bg-gray-200 -z-10 hidden md:block"></div>
-            {steps.map((step, i) => (
-              <div key={i} className="flex-1 bg-white p-8 rounded-2xl border border-gray-100 shadow-sm relative">
-                <span className="absolute -top-4 -left-4 w-10 h-10 bg-[#217328] text-white rounded-lg flex items-center justify-center font-black text-xs">{step.num}</span>
-                <h4 className="font-bold mb-3 mt-2">{step.title}</h4>
-                <p className="text-base leading-6 text-gray-500 leading-relaxed">{step.desc}</p>
+       <section className="bg-white py-28 px-6">
+        <div className="max-w-6xl mx-auto">
+
+          {/* Heading */}
+          <div className="text-center mb-20">
+            <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
+              Your Business Wellness Journey with Dietician in Gurugram
+            </h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-5xl mx-auto">
+              A streamlined implementation process designed for businesses seeking measurable health outcomes and absolute employee privacy.
+            </p>
+          </div>
+
+          {/* Timeline */}
+          <div className="relative">
+
+            {/* Vertical Line */}
+            <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-gradient-to-b from-[#217328] via-[#408d8b] to-transparent"></div>
+
+            {/* Steps */}
+            {[
+              {
+                num: "01",
+                title: "Discovery & Business Alignment",
+                desc: "Our dietician in Gurugram team analyzes your workforce size, wellness objectives, and organizational culture to design the optimal program structure. As the best dietician for weight loss near me for business clients, we ensure complete alignment with your company values."
+              },
+              {
+                num: "02",
+                title: "Customized Program Architecture",
+                desc: "Your dedicated wellness framework is developed by our experienced nutrition experts, seamlessly integrating with existing HR policies and employee benefits structures."
+              },
+              {
+                num: "03",
+                title: "Secure Employee Enrollment",
+                desc: "Team members voluntarily register through our privacy-protected portal, knowing their consultation with our dietician in Gurugram remains completely confidential from employer oversight."
+              },
+              {
+                num: "04",
+                title: "Program Launch & Resource Distribution",
+                desc: " The best dietician for weight loss near me team handles professional equipment setup, qualified dietician assignment, and personalized wellness plan activation for every enrolled employee."
+              },
+              {
+                num: "05",
+                title: "Ongoing Care & Performance Reporting",
+                desc: "Continuous nutrition support from our dietician in Gurugram with quarterly aggregated insights delivered to business leadership teams."
+              }
+            ].map((step, i) => (
+              <div key={i} className="relative pl-20 pb-16 last:pb-0">
+
+                {/* Number Badge */}
+                <div className="absolute left-0 top-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#217328] to-[#217328] text-white flex items-center justify-center font-black shadow-lg">
+                  {step.num}
+                </div>
+
+                {/* Card */}
+                <div className="bg-[#E8F5E9] rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300">
+                  <h4 className="text-xl font-bold text-gray-900 mb-3">
+                    {step.title}
+                  </h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    {step.desc}
+                  </p>
+                </div>
+
               </div>
             ))}
           </div>
+
+          {/* CTA */}
+          <div className="mt-24 text-center">
+            <button className="px-10 py-5 rounded-full bg-gradient-to-r from-[#217328] to-[#217328] text-white font-bold text-lg shadow-xl hover:scale-105 transition-all">
+              Schedule a Corporate Wellness Consultation
+            </button>
+          </div>
+
         </div>
       </section>
 
@@ -296,9 +357,9 @@ const CorporateWellness: React.FC = () => {
 
       {/* Final CTA */}
       <section className="py-24 px-6 bg-gradient-to-br from-[#217328] to-[#1B5E20] text-white text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">Ready to Transform Your Team's Health?</h2>
-          <p className="text-xl opacity-90 mb-12">Schedule a free session with a dietician in Gurugram to explore how corporate wellness can work for your organization.</p>
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-black mb-6 leading-tight">Ready to Transform Your Business Through Professional Nutrition Care?</h2>
+          <p className="text-xl opacity-90 mb-12">Schedule a complimentary consultation to discover how our dietician in Gurugram delivers measurable wellness outcomes for forward-thinking businesses. As the best dietician for weight loss near me, we bring world-class nutrition expertise directly to your workplace.</p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <button
               onClick={() => router.push('/contact')}

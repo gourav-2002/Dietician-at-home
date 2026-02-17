@@ -45,6 +45,14 @@ const ThyroidManagement: React.FC = () => {
     }
   };
 
+   const symptoms = [
+    { icon: <Scale />, label: "Weight Struggle", desc: "Good dieticians in Gurgaon provide metabolism support tailored to your thyroid state." },
+    { icon: <Wind />, label: "Crushing Fatigue", desc: "Dietitians near me for weight loss create energy-steady meal timing to fight burnout." },
+    { icon: <Brain />, label: "Brain Fog", desc: "Expert nutritionists in Gurgaon optimize nutrients for mental clarity and focus." },
+    { icon: <Thermometer />, label: "Temperature Sensitivity", desc: "Good dieticians in Gurgaon offer metabolic support for internal body balance." },
+    { icon: <Activity />, label: "Mood Swings", desc: "Dietitians near me stabilize blood sugar to support emotional health effectively." }
+  ];
+
   return (
     <div className="bg-[#FCFBFF] min-h-screen text-slate-800 font-sans selection:bg-[#217328]/20 overflow-x-hidden pt-[60px]">
 
@@ -68,8 +76,8 @@ const ThyroidManagement: React.FC = () => {
             <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.05] tracking-tight text-slate-900">
               <span className="text-transparent bg-clip-text bg-[#217328]">Thyroid Management Nutrition with a Good Dietician in Gurgaon</span>
             </h1>
-            <p className="text-xl md:text-2xl text-slate-600 max-w-xl leading-relaxed font-medium">
-              Specialized nutrition guidance to support metabolism and energy levels for individuals with thyroid conditions.
+            <p className="text-xl md:text-lg text-slate-600 max-w-xl leading-relaxed font-medium">
+              Support your thyroid health with expert guidance from a good dietician in Gurgaon specializing in hypothyroidism, hyperthyroidism, and Hashimoto's care. Professional nutrition delivered to your doorstep with weekly support from dietitians near me for weight loss who understand thyroid metabolism.
             </p>
             <div className="flex flex-col sm:flex-row gap-5 pt-4">
               <button onClick={() => router.push('/contact')} className="px-10 py-5 bg-[#217328] text-white rounded-2xl font-black text-xs uppercase tracking-widest shadow-2xl shadow-[#217328]/20 hover:bg-[#1B5E20] hover:-translate-y-1 transition-all">
@@ -93,6 +101,8 @@ const ThyroidManagement: React.FC = () => {
           </div>
         </div>
       </section>
+
+      
 
       {/* SECTION 2: WHO THIS IS FOR */}
       <section className="py-20 px-6 bg-white border-b border-slate-100">
@@ -118,29 +128,20 @@ const ThyroidManagement: React.FC = () => {
       </section>
 
       {/* SECTION 3: HOW NUTRITION SUPPORT HELPS */}
-      <section className="py-24 px-6 bg-slate-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 space-y-4">
-            <h2 className="text-3xl md:text-5xl font-black">How Nutrition <span className="text-[#217328]">Helps</span></h2>
-            <p className="text-slate-500 font-medium max-w-2xl mx-auto text-xl leading-8">
-              A well-planned diet provides the essential nutrients needed for thyroid function and overall well-being.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              { icon: <Zap />, title: "Energy Support", desc: "Nutrient-dense foods to help combat fatigue." },
-              { icon: <Scale />, title: "Weight Management", desc: "Strategies to support a healthy metabolism." },
-              { icon: <Thermometer />, title: "Metabolic Health", desc: "Foods that support your body's metabolic processes." },
-              { icon: <Brain />, title: "Mental Clarity", desc: "Balanced nutrition to support focus and reduce brain fog." },
-              { icon: <ShieldCheck />, title: "Immune Support", desc: "Anti-inflammatory foods to support immune health." },
-              { icon: <Heart />, title: "Overall Wellness", desc: "Holistic nutrition for long-term health." }
-            ].map((item, i) => (
-              <div key={i} className="p-10 rounded-[40px] bg-white border border-slate-100 hover:shadow-xl transition-all group">
-                <div className="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center mb-6 text-[#217328] group-hover:bg-[#217328] group-hover:text-white transition-colors shadow-sm">
-                  {React.cloneElement(item.icon as React.ReactElement, { size: 28 })}
+        <section className="py-32 px-6 bg-slate-900 text-white rounded-[100px] mx-8 my-20">
+        <div className="max-w-7xl mx-auto"> 
+          <div className="text-center mb-24 space-y-4">
+            <h2 className="text-4xl md:text-6xl font-extrabold tracking-tight">Understanding the <span className="text-[#217328]">Thyroid Struggle</span></h2>
+            <p className="text-slate-400 max-w-4xl mx-auto text-xl leading-8">Good dieticians in Gurgaon understand that thyroid conditions create daily frustration—persistent symptoms despite 'normal' lab results. Dietitians near me for weight loss provide compassionate support for your metabolic challenges.</p>
+          </div>  
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
+            {symptoms.map((s, i) => (
+              <div key={i} className="p-8 bg-white/5 border border-white/10 rounded-[40px] hover:bg-white/10 transition-all group text-center">
+                <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center mx-auto mb-6 text-[#217328] group-hover:scale-110 transition-transform">
+                  {React.cloneElement(s.icon as React.ReactElement, { size: 32 })}
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
-                <p className="text-base leading-6 text-slate-500 leading-relaxed font-medium">{item.desc}</p>
+                <h4 className="text-lg font-bold mb-3">{s.label}</h4>
+                <p className="text-base leading-6 text-slate-400 leading-relaxed font-medium">{s.desc}</p>
               </div>
             ))}
           </div>
@@ -162,44 +163,46 @@ const ThyroidManagement: React.FC = () => {
         </div>
       </section>
 
-      {/* SECTION 5: HOW CARE IS DELIVERED */}
+        {/* Doorstep Thyroid Care Advantage */}
       <section className="py-24 px-6 bg-white overflow-hidden">
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-24">
-          <div className="lg:w-1/2 relative">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-24 items-center">
+          <div className="relative order-2 lg:order-1">
             <div className="absolute inset-0 bg-[#217328] rounded-[100px] rotate-6 scale-95 opacity-5"></div>
             <Image
               src="/thyroid-management.jpg"
-              alt="Home care service"
+              alt="Good dietician in Gurgaon providing doorstep thyroid wellness care"
               width={800}
               height={520}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 800px"
               className="w-full h-auto rounded-[100px] shadow-2xl object-cover z-10"
+              loading="lazy"
             />
+            <div className="absolute top-1/2 -left-12 bg-white p-8 rounded-[40px] shadow-2xl z-20 border border-slate-50 hidden xl:block max-w-[240px] animate-float">
+              <Wind className="text-[#217328] w-10 h-10 mb-4" />
+              <p className="font-bold text-slate-900 text-sm italic">"Zero travel stress when thyroid fatigue is overwhelming—good dieticians in Gurgaon come to you."</p>
+            </div>
           </div>
-          <div className="lg:w-1/2 space-y-10">
-            <h2 className="text-3xl md:text-5xl font-black leading-tight">Support at <span className="text-[#217328]">Home</span></h2>
-            <div className="space-y-8">
-              <div className="flex gap-5">
-                <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center shrink-0 font-bold">1</div>
-                <div>
-                  <h4 className="text-xl font-bold text-slate-900">Weekly Guidance</h4>
-                  <p className="text-slate-500 mt-2">Regular sessions to adapt your nutrition plan to how you are feeling.</p>
+          <div className="space-y-8 order-1 lg:order-2">
+            <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">Dietitians Near Me for Weight Loss Come to <br /><span className="text-[#217328]">Your Doorstep</span></h2>
+            <p className="text-lg text-slate-600 font-medium leading-relaxed">
+              Thyroid conditions can make leaving home feel exhausting. Good dieticians in Gurgaon eliminate travel burden by bringing professional thyroid expertise and equipment directly to your living room across DLF Phase, Cyber City, Golf Course Road, and Sector 51.
+            </p>
+            <div className="space-y-6">
+              {[
+                { title: "At-Home Thyroid Assessments", desc: "Good dieticians in Gurgaon capture body composition data in your own comfortable environment." },
+                { title: "Weekly Professional Check-ins", desc: "Dietitians near me for weight loss provide expert thyroid guidance—no clinic visits required." },
+                { title: "Flexible Energy-Based Scheduling", desc: "Good dieticians in Gurgaon coordinate visits around your thyroid energy cycles and fatigue patterns." }
+              ].map((benefit, i) => (
+                <div key={i} className="flex gap-6">
+                  <div className="w-10 h-10 bg-[#E8F5E9] text-[#217328] rounded-xl flex items-center justify-center shrink-0 mt-1">
+                    <CheckCircle2 size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-slate-900">{benefit.title}</h4>
+                    <p className="text-base leading-6 text-slate-500 font-medium">{benefit.desc}</p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex gap-5">
-                <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center shrink-0 font-bold">2</div>
-                <div>
-                  <h4 className="text-xl font-bold text-slate-900">Lifestyle Coaching</h4>
-                  <p className="text-slate-500 mt-2">Tips on sleep, stress management, and movement to support your health.</p>
-                </div>
-              </div>
-              <div className="flex gap-5">
-                <div className="w-10 h-10 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center shrink-0 font-bold">3</div>
-                <div>
-                  <h4 className="text-xl font-bold text-slate-900">Healthcare Alignment</h4>
-                  <p className="text-slate-500 mt-2">We ensure your nutrition plan supports your doctor's plan.</p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
@@ -321,8 +324,8 @@ const ThyroidManagement: React.FC = () => {
       {/* Final CTA */}
       <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 text-center relative z-10 space-y-12">
-          <h2 className="text-4xl md:text-6xl font-black">Support Your Health</h2>
-          <p className="text-slate-400 text-xl font-medium max-w-2xl mx-auto">Professional nutrition guidance for your thyroid journey.</p>
+          <h2 className="text-4xl md:text-6xl font-black">Feel Like Yourself Again</h2>
+          <p className="text-slate-400 text-xl font-medium max-w-4xl mx-auto">Book good dieticians in Gurgaon for specialized thyroid wellness care. Work with dietitians near me for weight loss who understand thyroid metabolism and deliver expert nutrition to your doorstep across DLF Phase, Cyber City, Golf Course Road, and all of Gurgaon. You deserve to feel energized again.</p>
           <button onClick={() => router.push('/contact')} className="px-10 py-5 bg-[#217328] text-white rounded-[32px] font-bold text-lg hover:scale-105 transition-all">
             Contact Us
           </button>
