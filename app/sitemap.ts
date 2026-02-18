@@ -68,6 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/blog/5-reasons-diet-failed-at-home-monitoring`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/delhi-ncr-food-culture-diet-goals-balance`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/pcod-weight-gain-dieticians-delhi`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${baseUrl}/blog/why-thyroid-medication-isnt-enough-nutrition-role`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     ];
 
     // Legal / policy pages

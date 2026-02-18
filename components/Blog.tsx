@@ -19,7 +19,7 @@ interface BlogPost {
 const Blog: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Weight Management', 'PCOD Care', 'Diabetes Management', 'Elderly Care', 'Nutrition Tips'];
+  const categories = ['All', 'Weight Management', 'PCOD Care', 'Diabetes Management', 'Elderly Care', 'Nutrition Tips', 'Thyroid Health'];
 
   const posts: BlogPost[] = [
     {
@@ -130,6 +130,17 @@ const Blog: React.FC = () => {
       excerpt: 'Struggling with PCOD weight gain? Expert dieticians in Delhi explain why crash diets fail and what actually works. Discover a science-backed, sustainable approach.',
       readingTime: '11 min read',
       image: '/pcod-weight-gain-dieticians-delhi.jpg',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 11,
+      slug: 'why-thyroid-medication-isnt-enough-nutrition-role',
+      category: 'Thyroid Health',
+      date: 'Feb 18, 2026',
+      title: "Why Your Thyroid Medication Isn't Enough (And What Nutrition Adds)",
+      excerpt: "Taking thyroid medication but still feeling tired or gaining weight? The best dietician in Delhi explains what nutrition adds to thyroid recovery — and why medication alone is rarely the full answer.",
+      readingTime: '10 min read',
+      image: '/why-thyroid-medication-isnt-enough-nutrition-role.jpg',
       color: 'bg-green-100 text-[#217328]'
     }
   ];
