@@ -6,7 +6,7 @@ export const metadata = {
     description: "Discover why seniors need specialized nutrition care at home. Expert guidance from the best dietician in Delhi NCR on age-appropriate meal planning, health monitoring, and doorstep support for elderly wellness.",
     keywords: "best dietician in Delhi NCR, dieticians in Noida, elderly nutrition, senior citizen diet, elder care nutrition, home dietitian for elderly, geriatric nutrition, nutrition for seniors, at-home nutrition care, Delhi NCR dietitian",
     alternates: {
-        canonical: 'https://www.dieticianathome.com/blog/elder-care-nutrition-specialized-diet-plans-seniors',
+        canonical: 'https://dieticianathome.com/blog/elder-care-nutrition-specialized-diet-plans-seniors',
     },
     openGraph: {
         title: "Elder Care Nutrition: Why Seniors Need Specialized Diet Plans at Home",

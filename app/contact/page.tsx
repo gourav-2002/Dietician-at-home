@@ -18,6 +18,9 @@ export const metadata: Metadata = {
         title: 'Dieticians in Gurgaon | Contact Top Dietician in Gurgaon',
         description: 'Connect with top dieticians in Gurgaon. Call +91 98994 80775 or book free consultation. Expert at-home nutrition care across DLF, Cyber City & Golf Course Road.',
     },
+    alternates: {
+        canonical: 'https://dieticianathome.com/contact',
+    },
 };
 
 export default function ContactPage() {

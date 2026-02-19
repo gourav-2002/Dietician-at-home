@@ -27,6 +27,9 @@ export const metadata: Metadata = {
         description: 'Top-rated dieticians in Gurgaon offering at-home visits, weekly consultations, personalized meal plans & health monitoring. Expert nutrition care at your doorstep.',
         images: ['/hero-section-dietician-at-home.jpg'],
     },
+    alternates: {
+        canonical: 'https://dieticianathome.com',
+    },
 };
 
 export default function HomePage() {

@@ -50,9 +50,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/pregnancy-nutrition`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
         { url: `${baseUrl}/preconception-care`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
         { url: `${baseUrl}/postpartum-care`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/keto-diet`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/gut-wellness`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/intermittent-fasting`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+        { url: `${baseUrl}/programs/keto-diet`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+        { url: `${baseUrl}/programs/gut-wellness`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+        { url: `${baseUrl}/programs/intermittent-fasting`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
     ];
 
     // Blog pages
