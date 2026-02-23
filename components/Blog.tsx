@@ -142,6 +142,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/why-thyroid-medication-isnt-enough-nutrition-role.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 12,
+      slug: 'indian-breakfast-choices-for-diabetics-beyond-poha-upma',
+      category: 'Diabetes Management',
+      date: 'Feb 23, 2026',
+      title: 'Indian Breakfast Choices for Diabetics: Beyond Poha and Upma',
+      excerpt: '12 smart, culturally rooted Indian breakfast options that manage your blood sugar, keep you full, and actually taste like Indian food. Expert advice from a trusted dietician in Delhi NCR.',
+      readingTime: '10 min read',
+      image: '/indian-breakfast-choices-for-diabetics-beyond-poha-upma.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
