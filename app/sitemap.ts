@@ -70,6 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/blog/pcod-weight-gain-dieticians-delhi`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/why-thyroid-medication-isnt-enough-nutrition-role`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/indian-breakfast-choices-for-diabetics-beyond-poha-upma`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${baseUrl}/blog/intermittent-fasting-vs-calorie-deficit-indian-lifestyle`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     ];
 
     // Legal / policy pages

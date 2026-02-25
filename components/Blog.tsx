@@ -153,6 +153,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/indian-breakfast-choices-for-diabetics-beyond-poha-upma.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 13,
+      slug: 'intermittent-fasting-vs-calorie-deficit-indian-lifestyle',
+      category: 'Weight Management',
+      date: 'Feb 25, 2026',
+      title: 'Intermittent Fasting vs Calorie Deficit: Which One Actually Works for Indian Lifestyles?',
+      excerpt: 'Confused between intermittent fasting and calorie deficit? A top dietician in Delhi explains which approach actually works for Indian food habits, family schedules, and long-term health goals.',
+      readingTime: '10 min read',
+      image: '/intermittent-fasting-vs-calorie-deficit-indian-lifestyle.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
