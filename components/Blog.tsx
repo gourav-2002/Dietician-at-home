@@ -164,6 +164,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/intermittent-fasting-vs-calorie-deficit-indian-lifestyle.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 14,
+      slug: 'pcod-weight-gain-healthy-diets-fix',
+      category: 'PCOD Care',
+      date: 'Feb 27, 2026',
+      title: "Why Women With PCOD Gain Weight on 'Healthy' Diets — And How a Good Dietician in Delhi Can Fix It",
+      excerpt: "Eating healthy but still gaining weight with PCOD? A good dietician in Delhi explains the hormonal truth — insulin resistance, androgens, and inflammation — and the right nutrition fix for lasting PCOD weight management.",
+      readingTime: '10 min read',
+      image: '/pcod-weight-gain-healthy-diets-fix.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
