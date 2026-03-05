@@ -175,6 +175,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/pcod-weight-gain-healthy-diets-fix.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 15,
+      slug: 'why-tsh-normal-still-tired-nutrition-perspective',
+      category: 'Thyroid Health',
+      date: 'Mar 5, 2026',
+      title: 'Why Your TSH Is Normal But You Still Feel Tired — A Nutrition Perspective',
+      excerpt: "Your TSH report says normal but fatigue won't go away? A nutritionist in Delhi explains the real nutritional reasons behind thyroid-related tiredness — selenium, iron, Vitamin D, and more.",
+      readingTime: '9 min read',
+      image: '/why-tsh-normal-still-tired-nutrition-perspective.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
