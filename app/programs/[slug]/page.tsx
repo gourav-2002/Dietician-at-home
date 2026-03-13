@@ -114,6 +114,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
         title: program.title,
         description: program.description,
         keywords: program.keywords,
+        alternates: {
+            canonical: `https://dieticianathome.com/programs/${params.slug}`,
+        },
         openGraph: {
             title: program.title,
             description: program.description,
@@ -137,6 +140,50 @@ export default function ProgramPage({ params }: { params: { slug: string } }) {
         notFound();
     }
 
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: program.title,
+        description: program.description,
+        url: `https://dieticianathome.com/programs/${params.slug}`,
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: params.slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
+                item: `https://dieticianathome.com/programs/${params.slug}`,
+            },
+        ],
+    };
+
     const Component = program.component;
-    return <Component />;
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+            />
+            <Component />
+        </>
+    );
 }

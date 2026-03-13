@@ -31,5 +31,49 @@ export const metadata: Metadata = {
 };
 
 export default function CareTeamPage() {
-    return <CareTeam />;
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home - Expert Care Team',
+        description: 'Meet our team of qualified clinical dieticians and nutrition experts in Gurgaon.',
+        url: 'https://dieticianathome.com/care-team',
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Care Team',
+                item: 'https://dieticianathome.com/care-team',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <CareTeam />
+        </>
+    );
 }

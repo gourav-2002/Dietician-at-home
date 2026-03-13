@@ -28,5 +28,44 @@ export const metadata: Metadata = {
 };
 
 export default function TermsAndConditionsPage() {
-    return <TermsAndConditions />;
+    const pageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Terms & Conditions - Dietician at Home',
+        description: 'Service agreement and terms for our at-home nutrition services.',
+        url: 'https://dieticianathome.com/terms-and-conditions',
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Terms & Conditions',
+                item: 'https://dieticianathome.com/terms-and-conditions',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <TermsAndConditions />
+        </>
+    );
 }

@@ -31,5 +31,49 @@ export const metadata: Metadata = {
 };
 
 export default function AppToolsPage() {
-    return <AppTools />;
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home Mobile App & Tools',
+        description: 'Track your meals, sync health data, and manage your nutrition journey with our smart app.',
+        url: 'https://dieticianathome.com/app-tools',
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'App & Tools',
+                item: 'https://dieticianathome.com/app-tools',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <AppTools />
+        </>
+    );
 }

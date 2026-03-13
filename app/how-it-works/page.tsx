@@ -24,5 +24,49 @@ export const metadata: Metadata = {
 };
 
 export default function HowItWorksPage() {
-    return <HowItWorks />;
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home - How It Works',
+        description: 'Understand our process: Home visits, weekly dietician consultations, and personalized meal plans.',
+        url: 'https://dieticianathome.com/how-it-works',
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'How It Works',
+                item: 'https://dieticianathome.com/how-it-works',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <HowItWorks />
+        </>
+    );
 }

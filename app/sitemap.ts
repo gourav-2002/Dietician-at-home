@@ -31,25 +31,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         'elderly-nutrition',
     ];
 
-    const programPages = programSlugs.map((slug) => ({
-        url: `${baseUrl}/programs/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly' as const,
-        priority: 0.8,
-    }));
-
-    // Standalone program pages (not under /programs/)
-    const standaloneProgramPages = [
-        { url: `${baseUrl}/weight-management`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/pcod-care`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/cancer-recovery`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/thyroid-management`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/elderly-nutrition`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/diabetes-management`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/family-nutrition`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/pregnancy-nutrition`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/preconception-care`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
-        { url: `${baseUrl}/postpartum-care`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
+    const programPages = [
+        ...programSlugs.map((slug) => ({
+            url: `${baseUrl}/programs/${slug}`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly' as const,
+            priority: 0.8,
+        })),
         { url: `${baseUrl}/programs/keto-diet`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
         { url: `${baseUrl}/programs/gut-wellness`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
         { url: `${baseUrl}/programs/intermittent-fasting`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
@@ -87,7 +75,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return [
         ...mainPages,
         ...programPages,
-        ...standaloneProgramPages,
         ...blogPages,
         ...legalPages,
     ];

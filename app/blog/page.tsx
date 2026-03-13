@@ -31,5 +31,52 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
-    return <Blog />;
+    const blogSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Blog',
+        name: 'Dietician at Home Nutrition Blog',
+        description: 'Expert health tips, nutrition guides, and wellness advice from certified dieticians in Gurgaon.',
+        url: 'https://dieticianathome.com/blog',
+        publisher: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://dieticianathome.com/diet-at-home-logo.png',
+            },
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Blog',
+                item: 'https://dieticianathome.com/blog',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <Blog />
+        </>
+    );
 }

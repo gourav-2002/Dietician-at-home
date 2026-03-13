@@ -24,5 +24,75 @@ export const metadata: Metadata = {
 };
 
 export default function FAQPage() {
-    return <FAQs />;
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+            {
+                '@type': 'Question',
+                name: 'What is Dietician at Home?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Dietician at Home is a specialized at-location nutrition care service. We bring qualified expert dieticians directly to your doorstep for monthly health visits and provide weekly virtual sessions along with fully personalized meal plans through our app.',
+                },
+            },
+            {
+                '@type': 'Question',
+                name: 'How is this different from other nutrition services?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Unlike traditional clinics or generic apps, we eliminate the need for travel. We provide a "Human-First" approach where a trained field representative visits you, uses data-driven tracking devices we provide, and stays involved weekly to ensure you actually hit your goals.',
+                },
+            },
+            {
+                '@type': 'Question',
+                name: 'What areas do you serve?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Currently, we are serving Delhi/NCR region. We are rapidly expanding to other metropolitan cities across India soon.',
+                },
+            },
+            {
+                '@type': 'Question',
+                name: 'How do I get started?',
+                acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Simply fill out our enquiry form or call us. A care manager will have a brief discovery call with you to understand your goals, recommend a program from the best dietician near me for weight loss, and schedule your first at-home dietician visit.',
+                },
+            },
+        ],
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'FAQs',
+                item: 'https://dieticianathome.com/faq',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <FAQs />
+        </>
+    );
 }

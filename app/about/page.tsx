@@ -30,13 +30,51 @@ export const metadata = {
         images: ['https://dieticianathome.com/about-us-team.jpg'],
     },
     alternates: {
-        canonical: 'https://dieticianathome.com/about-us',
+        canonical: 'https://dieticianathome.com/about',
     },
 };
 
 export default function AboutPage() {
+    const aboutSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'AboutPage',
+        mainEntity: {
+            '@type': 'ProfessionalService',
+            name: 'Dietician at Home',
+            image: 'https://dieticianathome.com/about-us-team.jpg',
+            description: 'Meet expert nutritionists in Gurgaon providing professional at-home nutrition support.',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'About Us',
+                item: 'https://dieticianathome.com/about',
+            },
+        ],
+    };
+
     return (
         <div className="bg-white min-h-screen font-sans text-[#1F2937]">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
             <Navbar />
 
             {/* Hero Section */}

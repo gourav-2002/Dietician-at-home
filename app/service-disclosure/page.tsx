@@ -28,5 +28,44 @@ export const metadata: Metadata = {
 };
 
 export default function ServiceDisclosurePage() {
-    return <ServiceDisclosure />;
+    const pageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Service Disclosure - Dietician at Home',
+        description: 'Complete transparency on our qualifications and professional service standards.',
+        url: 'https://dieticianathome.com/service-disclosure',
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Service Disclosure',
+                item: 'https://dieticianathome.com/service-disclosure',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <ServiceDisclosure />
+        </>
+    );
 }

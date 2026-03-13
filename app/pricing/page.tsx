@@ -24,5 +24,50 @@ export const metadata: Metadata = {
 };
 
 export default function PricingPage() {
-    return <Pricing />;
+    const pricingSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home Pricing',
+        description: 'Flexible and affordable nutrition plans for weight loss, PCOD, and clinical nutrition in Gurgaon.',
+        url: 'https://dieticianathome.com/pricing',
+        priceRange: '₹2499 - ₹4999',
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Pricing',
+                item: 'https://dieticianathome.com/pricing',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(pricingSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <Pricing />
+        </>
+    );
 }

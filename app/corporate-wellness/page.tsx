@@ -31,5 +31,49 @@ export const metadata: Metadata = {
 };
 
 export default function CorporateWellnessPage() {
-    return <CorporateWellness />;
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home - Corporate Wellness',
+        description: 'Professional nutrition and wellness programs for corporate employees and organizations in Gurugram.',
+        url: 'https://dieticianathome.com/corporate-wellness',
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Corporate Wellness',
+                item: 'https://dieticianathome.com/corporate-wellness',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <CorporateWellness />
+        </>
+    );
 }

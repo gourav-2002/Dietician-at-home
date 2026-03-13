@@ -24,5 +24,44 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicyPage() {
-    return <PrivacyPolicy />;
+    const pageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Privacy Policy - Dietician at Home',
+        description: 'Learn how we protect your health data and personal information.',
+        url: 'https://dieticianathome.com/privacy-policy',
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Privacy Policy',
+                item: 'https://dieticianathome.com/privacy-policy',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <PrivacyPolicy />
+        </>
+    );
 }

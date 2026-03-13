@@ -28,5 +28,44 @@ export const metadata: Metadata = {
 };
 
 export default function RefundPolicyPage() {
-    return <RefundPolicy />;
+    const pageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Refund & Cancellation Policy - Dietician at Home',
+        description: 'Clear terms on refund eligibility and program cancellation process.',
+        url: 'https://dieticianathome.com/refund-policy',
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Refund Policy',
+                item: 'https://dieticianathome.com/refund-policy',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <RefundPolicy />
+        </>
+    );
 }

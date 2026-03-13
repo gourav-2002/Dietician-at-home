@@ -33,5 +33,55 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-    return <HeroSection />;
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home',
+        image: 'https://dieticianathome.com/hero-section-dietician-at-home.jpg',
+        '@id': 'https://dieticianathome.com',
+        url: 'https://dieticianathome.com',
+        telephone: '+918510850111',
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'DLF Phase 3',
+            addressLocality: 'Gurgaon',
+            addressRegion: 'Haryana',
+            postalCode: '122002',
+            addressCountry: 'IN',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 28.4595,
+            longitude: 77.0266,
+        },
+        openingHoursSpecification: {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+                'Sunday',
+            ],
+            opens: '09:00',
+            closes: '20:00',
+        },
+        sameAs: [
+            'https://www.facebook.com/dieticianathome',
+            'https://www.instagram.com/dieticianathome',
+        ],
+        description: 'Top-rated dieticians in Gurgaon offering at-home visits, weekly consultations, and personalized meal plans.',
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
+            <HeroSection />
+        </>
+    );
 }

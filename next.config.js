@@ -77,6 +77,56 @@ const nextConfig = {
                 permanent: true,
             },
             {
+                source: '/weight-management',
+                destination: '/programs/weight-management',
+                permanent: true,
+            },
+            {
+                source: '/pcod-care',
+                destination: '/programs/pcod-pcos',
+                permanent: true,
+            },
+            {
+                source: '/cancer-recovery',
+                destination: '/programs/cancer-recovery',
+                permanent: true,
+            },
+            {
+                source: '/thyroid-management',
+                destination: '/programs/thyroid-management',
+                permanent: true,
+            },
+            {
+                source: '/elderly-nutrition',
+                destination: '/programs/elderly-nutrition',
+                permanent: true,
+            },
+            {
+                source: '/diabetes-management',
+                destination: '/programs/diabetes-management',
+                permanent: true,
+            },
+            {
+                source: '/family-nutrition',
+                destination: '/programs/family-nutrition',
+                permanent: true,
+            },
+            {
+                source: '/pregnancy-nutrition',
+                destination: '/programs/pregnancy-nutrition',
+                permanent: true,
+            },
+            {
+                source: '/preconception-care',
+                destination: '/programs/preconception-care',
+                permanent: true,
+            },
+            {
+                source: '/postpartum-care',
+                destination: '/programs/postpartum-care',
+                permanent: true,
+            },
+            {
                 source: '/gut-wellness',
                 destination: '/programs/gut-wellness',
                 permanent: true,

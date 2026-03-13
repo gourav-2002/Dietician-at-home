@@ -31,5 +31,49 @@ export const metadata: Metadata = {
 };
 
 export default function WhoIsThisForPage() {
-    return <WhoIsThisFor />;
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ProfessionalService',
+        name: 'Dietician at Home - Specialized Care Personas',
+        description: 'Find out who can benefit from our personalized at-home nutrition services in Gurgaon.',
+        url: 'https://dieticianathome.com/who-is-this-for',
+        provider: {
+            '@type': 'Organization',
+            name: 'Dietician at Home',
+            url: 'https://dieticianathome.com',
+        },
+    };
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://dieticianathome.com',
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Who Is This For',
+                item: 'https://dieticianathome.com/who-is-this-for',
+            },
+        ],
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+            />
+            <WhoIsThisFor />
+        </>
+    );
 }

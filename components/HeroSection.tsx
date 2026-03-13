@@ -342,7 +342,7 @@ const Home: React.FC = () => {
               </h2>
 
               <p className="text-lg text-slate-600 font-medium leading-relaxed mb-10">
-                Finding dieticians near me shouldn't mean disrupting your schedule. Professional dieticians in Gurgaon visit your home or office. Zero travel. Complete privacy. Real-life nutrition guidance from qualified dieticians near me.
+                Finding a nutrition expert should not disrupt your daily schedule. Professional experts can visit your home or office, so you don’t need to travel. You receive complete privacy and practical nutrition guidance from qualified professionals.
               </p>
 
               <div className="grid gap-4 mb-10">
@@ -937,31 +937,31 @@ const Home: React.FC = () => {
                 {
                   icon: <Utensils />,
                   title: "Weekly Meal Plans",
-                  desc: "Your dieticians near me plan every meal in advance with ingredient lists and cooking instructions. Expert dieticians in Gurgaon eliminate confusion and repetition.",
+                  desc: "Your nutrition experts plan every meal in advance, including ingredient lists and cooking instructions. They help remove confusion and prevent repeating the same meals.",
                   badge: "Detailed recipes"
                 },
                 {
                   icon: <Smartphone />,
                   title: "Meal Tracking",
-                  desc: "Track what you actually eat. Professional dieticians in Gurgaon see calories, macros, and outside meals logged—giving dieticians near me the real picture.",
+                  desc: "Track what you actually eat. Professionals review your calories, nutrients, and outside meals to get a clear and accurate picture of your diet.",
                   badge: "AI-powered scanning"
                 },
                 {
                   icon: <Activity />,
                   title: "Health tracking",
-                  desc: "Track wellness parameters manually or via smart device sync. Dieticians near me visualize progress. Expert dieticians in Gurgaon measure results, not guesses.",
+                  desc: "Track your wellness data manually or sync it through a smart device. Professionals can clearly see your progress and measure real results instead of relying on guesses.",
                   badge: "Auto-sync device"
                 },
                 {
                   icon: <Calendar />,
                   title: "session Scheduling",
-                  desc: "Every week starts with a conversation. Dieticians in Gurgaon adjust your plan only after discussing progress. Qualified dieticians near me provide real accountability.",
+                  desc: "Every week begins with a conversation. Professionals adjust your plan after discussing your progress and provide real accountability to help you stay on track.",
                   badge: "One-tap booking"
                 },
                 {
                   icon: <Users />,
                   title: "Family Management",
-                  desc: "Manage nutrition for multiple family members from one account. Dieticians near me offer consolidated planning. Professional dieticians in Gurgaon coordinate entire households.",
+                  desc: "Manage nutrition for multiple family members from one account. Professionals provide a single, organized plan and coordinate meals for the entire household.",
                   badge: "Multi-user support"
                 },
                 {
@@ -1186,12 +1186,12 @@ const Home: React.FC = () => {
           </div>
 
           {/* Differentiators Grid */}
-             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
             {[
               {
                 icon: <MapPin size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
                 title: "Dieticians Near Me Visit Your Home",
-                desc: "Professional dieticians in Gurgaon bring nutrition guidance to your doorstep. Monthly at-location assessments by expert dieticians near me mean zero travel, zero waiting, zero routine disruption.",
+                desc: "Professionals bring nutrition guidance directly to your doorstep. Monthly in-person assessments mean no travel, no waiting, and no disruption to your routine.",
                 badge: "Every client gets monthly home visits"
               },
               {
@@ -1203,13 +1203,13 @@ const Home: React.FC = () => {
               {
                 icon: <BarChart3 size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
                 title: "Data-Driven Dieticians Near Me",
-                desc: "Expert dieticians in Gurgaon use professional monitoring devices, real-time tracking, and weekly updates. Professional dieticians near me eliminate guesswork—your progress with dieticians in Gurgaon is quantifiable and visible.",
+                desc: "Experts use professional monitoring devices, real-time tracking, and weekly updates. This removes guesswork and makes your progress clear, measurable, and easy to track.",
                 badge: "Real-time tracking via app & devices"
               },
               {
                 icon: <Users size={40} className="text-[#217328] group-hover:text-white transition-colors duration-300" />,
                 title: "Human Dieticians in Gurgaon, Tech-Enabled",
-                desc: "Technology works in the background while real dieticians near me control your guidance. Professional dieticians in Gurgaon make decisions. The app makes execution easier. Best of both worlds.",
+                desc: "Technology works in the background while professionals guide your nutrition plan. Experts make the decisions, and the app simply helps make everything easier to follow. This gives you the best of both worlds.",
                 badge: "100% human-led consultations"
               }
             ].map((d, i) => (
@@ -1531,7 +1531,7 @@ const Home: React.FC = () => {
 
 
       {/* SECTION 11.5: NUTRITION QUOTE (NEW) */}
-         <section className="relative py-20 md:py-32 bg-gradient-to-b from-[#FAFAFA] to-white overflow-hidden">
+      <section className="relative py-20 md:py-32 bg-gradient-to-b from-[#FAFAFA] to-white overflow-hidden">
         {/* Decorative Background Element */}
         <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[#217328]/5 rounded-full blur-[100px] pointer-events-none"></div>
 

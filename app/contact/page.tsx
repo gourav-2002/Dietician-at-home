@@ -24,5 +24,31 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-    return <Contact />;
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "description": "Contact Dietician at Home for expert nutrition consultation in Gurgaon.",
+        "mainEntity": {
+            "@type": "ProfessionalService",
+            "name": "Dietician at Home",
+            "telephone": "+918510850111",
+            "areaServed": "Gurgaon, Delhi NCR",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gurgaon",
+                "addressRegion": "Haryana",
+                "addressCountry": "IN"
+            }
+        }
+    };
+
+    return (
+        <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
+            <Contact />
+        </>
+    );
 }
