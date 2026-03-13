@@ -23,6 +23,17 @@ const Blog: React.FC = () => {
 
   const posts: BlogPost[] = [
     {
+      id: 16,
+      slug: 'street-food-survival-guide-type-2-diabetics-delhi-ncr',
+      category: 'Diabetes Management',
+      date: 'Mar 13, 2026',
+      title: 'Street Food Survival Guide for Type 2 Diabetics in Delhi NCR',
+      excerpt: 'Struggling to enjoy Delhi NCR street food with diabetes? Our 2500-word survival guide reveals smart swaps and hidden sugar traps to help you eat out safely. Expert advice from the best dietitians in Delhi.',
+      readingTime: '12 min read',
+      image: '/street-food-survival-guide-type-2-diabetics-delhi-ncr.jpg',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
       id: 1,
       slug: 'understanding-pcod-nutrition-strategies',
       category: 'PCOD/PCOS Care',
