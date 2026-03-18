@@ -206,7 +206,7 @@ const Blog: React.FC = () => {
       title: "Iron-Rich Indian Foods That Aren't Spinach: A Practical Guide for Pregnant Women",
       excerpt: "Tired of spinach? Discover 12+ iron-rich Indian foods perfect for pregnant women. Expert guidance from the best nutritionist in Noida — rajma, methi, til, moringa, jaggery and more, with practical kitchen tips.",
       readingTime: '10 min read',
-      image: '/iron-rich-indian-foods-pregnancy-guide.jpg',
+      image: '/iron-rich-indian-foods-pregnancy.jpg',
       color: 'bg-green-100 text-[#217328]'
     }
   ];

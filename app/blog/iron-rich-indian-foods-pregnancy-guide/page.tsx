@@ -233,7 +233,7 @@ export default function IronRichFoodsBlog() {
                     {/* Hero Image */}
                     <div className="relative aspect-video rounded-[2.5rem] overflow-hidden shadow-2xl mb-16">
                         <Image
-                            src="https://dieticianathome.com/images/blog/iron-rich-indian-foods-pregnancy.jpg"
+                            src="/iron-rich-indian-foods-pregnancy.jpg"
                             alt="Pregnant Indian woman with iron-rich foods — rajma, methi, til and pomegranate on a wooden table"
                             width={1200}
                             height={675}
