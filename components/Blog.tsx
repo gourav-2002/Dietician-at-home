@@ -19,7 +19,7 @@ interface BlogPost {
 const Blog: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Weight Management', 'PCOD Care', 'Diabetes Management', 'Elderly Care', 'Nutrition Tips', 'Thyroid Health'];
+  const categories = ['All', 'Weight Management', 'PCOD Care', 'Diabetes Management', 'Elderly Care', 'Nutrition Tips', 'Thyroid Health', 'Pregnancy Nutrition'];
 
   const posts: BlogPost[] = [
     {
@@ -196,6 +196,17 @@ const Blog: React.FC = () => {
       excerpt: "Your TSH report says normal but fatigue won't go away? A nutritionist in Delhi explains the real nutritional reasons behind thyroid-related tiredness — selenium, iron, Vitamin D, and more.",
       readingTime: '9 min read',
       image: '/why-tsh-normal-still-tired-nutrition-perspective.jpg',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 17,
+      slug: 'iron-rich-indian-foods-pregnancy-guide',
+      category: 'Pregnancy Nutrition',
+      date: 'Mar 18, 2026',
+      title: "Iron-Rich Indian Foods That Aren't Spinach: A Practical Guide for Pregnant Women",
+      excerpt: "Tired of spinach? Discover 12+ iron-rich Indian foods perfect for pregnant women. Expert guidance from the best nutritionist in Noida — rajma, methi, til, moringa, jaggery and more, with practical kitchen tips.",
+      readingTime: '10 min read',
+      image: '/iron-rich-indian-foods-pregnancy-guide.jpg',
       color: 'bg-green-100 text-[#217328]'
     }
   ];
