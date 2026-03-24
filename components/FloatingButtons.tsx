@@ -19,26 +19,26 @@ const FloatingButtons: React.FC = () => {
                     'value': 1.0,
                     'currency': 'INR'
                 });
-                console.log('Google Ads conversion tracked successfully');
             }
         } catch (err) {
-            console.error('Error tracking conversion:', err);
+            // silently ignore conversion tracking errors
         }
     };
 
     const [showScrollTop, setShowScrollTop] = React.useState(false);
 
     React.useEffect(() => {
+        let rafId: number;
         const handleScroll = () => {
-            if (window.scrollY > 300) {
-                setShowScrollTop(true);
-            } else {
-                setShowScrollTop(false);
-            }
+            rafId = requestAnimationFrame(() => {
+                setShowScrollTop(window.scrollY > 300);
+            });
         };
-
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            cancelAnimationFrame(rafId);
+        };
     }, []);
 
     const scrollToTop = () => {

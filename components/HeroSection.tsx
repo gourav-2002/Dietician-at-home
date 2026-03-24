@@ -172,6 +172,7 @@ const Home: React.FC = () => {
               width={800}
               height={600}
               priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 768px, 800px"
               className="w-full h-auto object-cover"
             />
           </div>
@@ -230,6 +231,7 @@ const Home: React.FC = () => {
             alt="Dietician at home session"
             fill
             priority
+            sizes="100vw"
             className="object-cover"
             style={{
               transform: isDesktop
