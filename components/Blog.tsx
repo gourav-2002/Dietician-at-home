@@ -208,6 +208,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/iron-rich-indian-foods-pregnancy.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 18,
+      slug: 'pregnancy-cravings-vs-nutrition-what-your-body-is-asking-for',
+      category: 'Pregnancy Nutrition',
+      date: 'Mar 24, 2026',
+      title: "Pregnancy Cravings vs. Nutrition: What Your Body Is Really Asking For",
+      excerpt: "Craving ice, pickles, or clay during pregnancy? A leading pregnancy nutritionist in Delhi decodes what your cravings really mean and how to satisfy them safely without compromising your baby's nutrition.",
+      readingTime: '10 min read',
+      image: '/pregnancy-cravings-hero.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 
