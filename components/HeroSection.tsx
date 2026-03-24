@@ -21,9 +21,15 @@ const Home: React.FC = () => {
   const router = useRouter();
 
   useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    let rafId: number;
+    const handleScroll = () => {
+      rafId = requestAnimationFrame(() => setScrollY(window.scrollY));
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      cancelAnimationFrame(rafId);
+    };
   }, []);
 
   const fadeIn = (delay: number = 0) => ({
@@ -223,6 +229,7 @@ const Home: React.FC = () => {
             src="/hero-section-dietician-at-home.jpg"
             alt="Dietician at home session"
             fill
+            priority
             className="object-cover"
             style={{
               transform: isDesktop
@@ -311,6 +318,7 @@ const Home: React.FC = () => {
                   src="/feature-home-visit-1.jpg"
                   alt="Dietician visiting client at home"
                   fill
+                  loading="lazy"
                   className="object-cover transform scale-105 transition-transform duration-700"
                 />
               </div>
@@ -998,6 +1006,7 @@ const Home: React.FC = () => {
                     alt="Diet session"
                     width={600}
                     height={500}
+                    loading="lazy"
                     className="object-cover"
                   />
                 </div>
@@ -1010,6 +1019,7 @@ const Home: React.FC = () => {
                     alt="Meal Planning App"
                     width={600}
                     height={500}
+                    loading="lazy"
                     className="object-cover"
                   />
                 </div>
