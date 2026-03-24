@@ -6,10 +6,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 
-const inter = Inter({ subsets: ['latin'], display: 'swap', preload: true });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://dieticianathome.com'),
+    metadataBase: new URL('https://www.dieticianathome.com'),
     title: 'Dietician at Home | Personalized Nutrition & Lifestyle Coaching',
     description: 'India\'s premier at-home nutrition service. Get weekly Dietician sessions, personalized meal plans, and professional wellness visits delivered to your doorstep.',
     keywords: 'Dietician at home, nutrition coaching, weight management, personalized meal plans, Delhi NCR, home nutrition service, qualified Dietician',
@@ -52,9 +52,6 @@ export default function RootLayout({
         <html lang="en">
             <head>
                 <link rel="icon" type="image/png" href="/favicon.png" />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-                <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
                 {/* Google Analytics */}
                 <Script

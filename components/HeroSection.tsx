@@ -18,9 +18,11 @@ const Home: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeFaq, setActiveFaq] = useState<number | null>(0);
   const [scrollY, setScrollY] = useState(0);
+  const [isDesktop, setIsDesktop] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
+    setIsDesktop(window.innerWidth >= 1280);
     let rafId: number;
     const handleScroll = () => {
       rafId = requestAnimationFrame(() => setScrollY(window.scrollY));
@@ -139,9 +141,6 @@ const Home: React.FC = () => {
     { q: "How often will I speak to my Dietician?", a: "You will have a dedicated one-on-one session every single week, plus 24/7 access to your Dietician and AI assistant via the app." },
     { q: "What is included in the pricing?", a: "Monthly at-home visits, weekly sessions, personalized meal plans, a smart tracking device (yours to keep), and full app access." }
   ];
-
-  const isDesktop = typeof window !== "undefined" && window.innerWidth >= 1280;
-
 
   return (
     <div className="bg-white font-sans text-[#1a1a2e] selection:bg-[#00bfa5]/20 overflow-x-hidden pt-[80px] home-herosection">
@@ -921,7 +920,6 @@ const Home: React.FC = () => {
       <section className="py-24 md:py-24 bg-[#0F172A] relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A] to-[#1E293B]"></div>
-        <div className="absolute inset-0 opacity-[0.03] bg-[url('https://grainy-gradients.vercel.app/noise.svg')]"></div>
 
         {/* Floating Gradient Orbs */}
         <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[#217328]/20 rounded-full blur-[120px] animate-[float_8s_ease-in-out_infinite]" />
@@ -1344,7 +1342,6 @@ const Home: React.FC = () => {
 
           {/* Bottom Trust Stats */}
           <div className="mt-20 max-w-[1400px] mx-auto bg-gradient-to-r from-[#217328] to-[#1B5E20] rounded-[40px] px-8 py-16 md:p-16 text-center shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-full bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mixed-blend-overlay"></div>
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4 relative z-10">Trusted by 500+ Active Clients</h3>
             <p className="text-lg text-white/80 mb-12 relative z-10">Real people. Real results. Real transformation.</p>
 

@@ -281,7 +281,6 @@ const Pricing: React.FC = () => {
       {/* Corporate CTA */}
       <section className="pb-24 px-6">
         <div className="max-w-7xl mx-auto bg-gradient-to-r from-[#217328] to-[#1B5E20] rounded-[60px] p-12 md:p-20 flex flex-col md:flex-row items-center justify-between gap-12 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay"></div>
           <div className="space-y-6 relative z-10">
             <h2 className="text-4xl font-black text-white">Corporate Wellness Programs</h2>
             <p className="text-white/80 max-w-lg font-medium text-lg">
