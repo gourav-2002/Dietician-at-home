@@ -219,6 +219,17 @@ const Blog: React.FC = () => {
       readingTime: '10 min read',
       image: '/pregnancy-cravings-hero.jpg',
       color: 'bg-green-100 text-[#217328]'
+    },
+    {
+      id: 19,
+      slug: 'first-40-days-after-delivery-confinement-food',
+      category: 'Pregnancy Nutrition',
+      date: 'Mar 30, 2026',
+      title: "The First 40 Days After Delivery: What Confinement Food Gets Right",
+      excerpt: "Discover what traditional postpartum confinement foods get right — and what they miss. Expert insights on nourishing your body after delivery with the right nutrition for the jaapa period.",
+      readingTime: '11 min read',
+      image: '/first-40-days-confinement-food.jpg',
+      color: 'bg-green-100 text-[#217328]'
     }
   ];
 

@@ -63,6 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         { url: `${baseUrl}/blog/why-tsh-normal-still-tired-nutrition-perspective`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/iron-rich-indian-foods-pregnancy-guide`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
         { url: `${baseUrl}/blog/pregnancy-cravings-vs-nutrition-what-your-body-is-asking-for`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
+        { url: `${baseUrl}/blog/first-40-days-after-delivery-confinement-food`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     ];
 
     // Legal / policy pages
