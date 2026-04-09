@@ -23,6 +23,17 @@ const Blog: React.FC = () => {
 
   const posts: BlogPost[] = [
     {
+      id: 20,
+      slug: 'postpartum-hair-loss-nutrition-best-nutritionist-jaipur',
+      category: 'Pregnancy Nutrition',
+      date: 'Apr 9, 2026',
+      title: "Postpartum Hair Loss & Nutrition: Why Your Diet Is the Missing Piece",
+      excerpt: "Struggling with hair fall after delivery? The best nutritionist in Jaipur explains the nutrition-hair loss connection and how to stop postpartum hair fall with the right diet.",
+      readingTime: '10 min read',
+      image: '/postpartum-hair-loss-nutrition-best-nutritionist-jaipur.webp',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
       id: 19,
       slug: 'first-40-days-after-delivery-confinement-food',
       category: 'Pregnancy Nutrition',
