@@ -23,6 +23,17 @@ const Blog: React.FC = () => {
 
   const posts: BlogPost[] = [
     {
+      id: 21,
+      slug: 'how-to-find-good-dietician-noida-chandigarh',
+      category: 'Nutrition Tips',
+      date: 'Apr 14, 2026',
+      title: "How to Find a Good Dietician in Noida: What to Actually Look For",
+      excerpt: "Looking for a good dietician in Noida or the best dietician in Chandigarh? Here's exactly what to check before you hire one — no fluff, just real criteria.",
+      readingTime: '9 min read',
+      image: '/find-dietician-noida-chandigarh-hero.webp',
+      color: 'bg-green-100 text-[#217328]'
+    },
+    {
       id: 20,
       slug: 'postpartum-hair-loss-nutrition-best-nutritionist-jaipur',
       category: 'Pregnancy Nutrition',
